@@ -1,0 +1,2568 @@
+{
+  "version": 1,
+  "game": "1.6",
+  "rooms": [
+    {
+      "id": "crafts-room",
+      "name": "Crafts Room",
+      "bundles": [
+        {
+          "id": "spring-foraging",
+          "name": "Spring Foraging Bundle",
+          "color": "green",
+          "needed": 4,
+          "items": [
+            {
+              "id": "spring-foraging-wild-horseradish",
+              "name": "Wild Horseradish",
+              "sprite": "/sprites/wild-horseradish.png",
+              "quantity": 1,
+              "quality": "any",
+              "seasons": [
+                "spring"
+              ],
+              "weather": "any",
+              "time": "any",
+              "source": "forage",
+              "location": "Anywhere",
+              "dayGated": false,
+              "howToGet": "Foraging in Spring."
+            },
+            {
+              "id": "spring-foraging-daffodil",
+              "name": "Daffodil",
+              "sprite": "/sprites/daffodil.png",
+              "quantity": 1,
+              "quality": "any",
+              "seasons": [
+                "spring"
+              ],
+              "weather": "any",
+              "time": "any",
+              "source": "forage",
+              "location": "Bus Stop / Town",
+              "dayGated": false,
+              "howToGet": "Spring foraging, or buy from Pierre at the Flower Dance."
+            },
+            {
+              "id": "spring-foraging-leek",
+              "name": "Leek",
+              "sprite": "/sprites/leek.png",
+              "quantity": 1,
+              "quality": "any",
+              "seasons": [
+                "spring"
+              ],
+              "weather": "any",
+              "time": "any",
+              "source": "forage",
+              "location": "Backwoods / Mountain",
+              "dayGated": false,
+              "howToGet": "Foraging in Spring."
+            },
+            {
+              "id": "spring-foraging-dandelion",
+              "name": "Dandelion",
+              "sprite": "/sprites/dandelion.png",
+              "quantity": 1,
+              "quality": "any",
+              "seasons": [
+                "spring"
+              ],
+              "weather": "any",
+              "time": "any",
+              "source": "forage",
+              "location": "Bus Stop / Town",
+              "dayGated": false,
+              "howToGet": "Spring foraging, or buy from Pierre at the Flower Dance."
+            }
+          ]
+        },
+        {
+          "id": "summer-foraging",
+          "name": "Summer Foraging Bundle",
+          "color": "yellow",
+          "needed": 3,
+          "items": [
+            {
+              "id": "summer-foraging-grape",
+              "name": "Grape",
+              "sprite": "/sprites/grape.png",
+              "quantity": 1,
+              "quality": "any",
+              "seasons": [
+                "summer"
+              ],
+              "weather": "any",
+              "time": "any",
+              "source": "forage",
+              "location": "Cindersap Forest",
+              "dayGated": false,
+              "howToGet": "Summer foraging."
+            },
+            {
+              "id": "summer-foraging-spice-berry",
+              "name": "Spice Berry",
+              "sprite": "/sprites/spice-berry.png",
+              "quantity": 1,
+              "quality": "any",
+              "seasons": [
+                "summer"
+              ],
+              "weather": "any",
+              "time": "any",
+              "source": "forage",
+              "location": "Anywhere",
+              "dayGated": false,
+              "howToGet": "Summer foraging, or the Farm Cave (fruit bat option)."
+            },
+            {
+              "id": "summer-foraging-sweet-pea",
+              "name": "Sweet Pea",
+              "sprite": "/sprites/sweet-pea.png",
+              "quantity": 1,
+              "quality": "any",
+              "seasons": [
+                "summer"
+              ],
+              "weather": "any",
+              "time": "any",
+              "source": "forage",
+              "location": "Anywhere",
+              "dayGated": false,
+              "howToGet": "Summer foraging."
+            }
+          ]
+        },
+        {
+          "id": "fall-foraging",
+          "name": "Fall Foraging Bundle",
+          "color": "orange",
+          "needed": 4,
+          "items": [
+            {
+              "id": "fall-foraging-common-mushroom",
+              "name": "Common Mushroom",
+              "sprite": "/sprites/common-mushroom.png",
+              "quantity": 1,
+              "quality": "any",
+              "seasons": [
+                "spring",
+                "fall"
+              ],
+              "weather": "any",
+              "time": "any",
+              "source": "forage",
+              "location": "Secret Woods / Forest",
+              "dayGated": false,
+              "howToGet": "Fall foraging, the Secret Woods, or tapping a Mushroom Tree."
+            },
+            {
+              "id": "fall-foraging-wild-plum",
+              "name": "Wild Plum",
+              "sprite": "/sprites/wild-plum.png",
+              "quantity": 1,
+              "quality": "any",
+              "seasons": [
+                "fall"
+              ],
+              "weather": "any",
+              "time": "any",
+              "source": "forage",
+              "location": "Anywhere",
+              "dayGated": false,
+              "howToGet": "Fall foraging, or the Farm Cave (fruit bat option)."
+            },
+            {
+              "id": "fall-foraging-hazelnut",
+              "name": "Hazelnut",
+              "sprite": "/sprites/hazelnut.png",
+              "quantity": 1,
+              "quality": "any",
+              "seasons": [
+                "fall"
+              ],
+              "weather": "any",
+              "time": "any",
+              "source": "forage",
+              "location": "Anywhere",
+              "dayGated": false,
+              "howToGet": "Fall foraging."
+            },
+            {
+              "id": "fall-foraging-blackberry",
+              "name": "Blackberry",
+              "sprite": "/sprites/blackberry.png",
+              "quantity": 1,
+              "quality": "any",
+              "seasons": [
+                "fall"
+              ],
+              "weather": "any",
+              "time": "any",
+              "source": "forage",
+              "location": "Anywhere",
+              "dayGated": false,
+              "howToGet": "Fall foraging, or the Farm Cave (fruit bat option)."
+            }
+          ]
+        },
+        {
+          "id": "winter-foraging",
+          "name": "Winter Foraging Bundle",
+          "color": "teal",
+          "needed": 4,
+          "items": [
+            {
+              "id": "winter-foraging-winter-root",
+              "name": "Winter Root",
+              "sprite": "/sprites/winter-root.png",
+              "quantity": 1,
+              "quality": "any",
+              "seasons": [
+                "winter"
+              ],
+              "weather": "any",
+              "time": "any",
+              "source": "forage",
+              "location": "Anywhere (tilling / Artifact Spots)",
+              "dayGated": false,
+              "howToGet": "Till soil or dig Artifact Spots in Winter; dropped by Blue Slimes in the Mines."
+            },
+            {
+              "id": "winter-foraging-crystal-fruit",
+              "name": "Crystal Fruit",
+              "sprite": "/sprites/crystal-fruit.png",
+              "quantity": 1,
+              "quality": "any",
+              "seasons": [
+                "winter"
+              ],
+              "weather": "any",
+              "time": "any",
+              "source": "forage",
+              "location": "Anywhere",
+              "dayGated": false,
+              "howToGet": "Winter foraging, or dropped by Dust Sprites in the Mines."
+            },
+            {
+              "id": "winter-foraging-snow-yam",
+              "name": "Snow Yam",
+              "sprite": "/sprites/snow-yam.png",
+              "quantity": 1,
+              "quality": "any",
+              "seasons": [
+                "winter"
+              ],
+              "weather": "any",
+              "time": "any",
+              "source": "forage",
+              "location": "Anywhere (tilling / Artifact Spots)",
+              "dayGated": false,
+              "howToGet": "Till soil or dig Artifact Spots in Winter."
+            },
+            {
+              "id": "winter-foraging-crocus",
+              "name": "Crocus",
+              "sprite": "/sprites/crocus.png",
+              "quantity": 1,
+              "quality": "any",
+              "seasons": [
+                "winter"
+              ],
+              "weather": "any",
+              "time": "any",
+              "source": "forage",
+              "location": "Anywhere",
+              "dayGated": false,
+              "howToGet": "Winter foraging."
+            }
+          ]
+        },
+        {
+          "id": "construction",
+          "name": "Construction Bundle",
+          "color": "red",
+          "needed": 4,
+          "items": [
+            {
+              "id": "construction-wood-a",
+              "name": "Wood",
+              "sprite": "/sprites/wood.png",
+              "quantity": 99,
+              "quality": "any",
+              "seasons": [
+                "spring",
+                "summer",
+                "fall",
+                "winter"
+              ],
+              "weather": "any",
+              "time": "any",
+              "source": "forage",
+              "location": "Anywhere",
+              "dayGated": false,
+              "howToGet": "Chop trees or branches with an Axe, or buy from the Carpenter's Shop."
+            },
+            {
+              "id": "construction-wood-b",
+              "name": "Wood",
+              "sprite": "/sprites/wood.png",
+              "quantity": 99,
+              "quality": "any",
+              "seasons": [
+                "spring",
+                "summer",
+                "fall",
+                "winter"
+              ],
+              "weather": "any",
+              "time": "any",
+              "source": "forage",
+              "location": "Anywhere",
+              "dayGated": false,
+              "howToGet": "Chop trees or branches with an Axe, or buy from the Carpenter's Shop."
+            },
+            {
+              "id": "construction-stone",
+              "name": "Stone",
+              "sprite": "/sprites/stone.png",
+              "quantity": 99,
+              "quality": "any",
+              "seasons": [
+                "spring",
+                "summer",
+                "fall",
+                "winter"
+              ],
+              "weather": "any",
+              "time": "any",
+              "source": "mine",
+              "location": "The Mines / Quarry",
+              "dayGated": false,
+              "howToGet": "Break rocks with a Pickaxe, or buy from the Carpenter's Shop."
+            },
+            {
+              "id": "construction-hardwood",
+              "name": "Hardwood",
+              "sprite": "/sprites/hardwood.png",
+              "quantity": 10,
+              "quality": "any",
+              "seasons": [
+                "spring",
+                "summer",
+                "fall",
+                "winter"
+              ],
+              "weather": "any",
+              "time": "any",
+              "source": "mine",
+              "location": "Secret Woods / The Mines",
+              "dayGated": false,
+              "howToGet": "Chop Large Stumps or Logs with an upgraded Axe, or break crates in the Mines."
+            }
+          ]
+        },
+        {
+          "id": "exotic-foraging",
+          "name": "Exotic Foraging Bundle",
+          "color": "purple",
+          "needed": 5,
+          "items": [
+            {
+              "id": "exotic-foraging-coconut",
+              "name": "Coconut",
+              "sprite": "/sprites/coconut.png",
+              "quantity": 1,
+              "quality": "any",
+              "seasons": [
+                "spring",
+                "summer",
+                "fall",
+                "winter"
+              ],
+              "weather": "any",
+              "time": "any",
+              "source": "forage",
+              "location": "The Desert",
+              "dayGated": false,
+              "howToGet": "Desert foraging, the Oasis, or shaking a Palm Tree in the Desert or Ginger Island."
+            },
+            {
+              "id": "exotic-foraging-cactus-fruit",
+              "name": "Cactus Fruit",
+              "sprite": "/sprites/cactus-fruit.png",
+              "quantity": 1,
+              "quality": "any",
+              "seasons": [
+                "spring",
+                "summer",
+                "fall",
+                "winter"
+              ],
+              "weather": "any",
+              "time": "any",
+              "source": "forage",
+              "location": "The Desert",
+              "dayGated": false,
+              "howToGet": "Desert foraging or the Oasis."
+            },
+            {
+              "id": "exotic-foraging-cave-carrot",
+              "name": "Cave Carrot",
+              "sprite": "/sprites/cave-carrot.png",
+              "quantity": 1,
+              "quality": "any",
+              "seasons": [
+                "spring",
+                "summer",
+                "fall",
+                "winter"
+              ],
+              "weather": "any",
+              "time": "any",
+              "source": "mine",
+              "location": "The Mines",
+              "dayGated": false,
+              "howToGet": "Break boxes or till soil in the Mines."
+            },
+            {
+              "id": "exotic-foraging-red-mushroom",
+              "name": "Red Mushroom",
+              "sprite": "/sprites/red-mushroom.png",
+              "quantity": 1,
+              "quality": "any",
+              "seasons": [
+                "summer",
+                "fall"
+              ],
+              "weather": "any",
+              "time": "any",
+              "source": "forage",
+              "location": "The Mines / Secret Woods",
+              "dayGated": false,
+              "howToGet": "Foraging in the Mines or the Secret Woods, or tapping a Mushroom Tree."
+            },
+            {
+              "id": "exotic-foraging-purple-mushroom",
+              "name": "Purple Mushroom",
+              "sprite": "/sprites/purple-mushroom.png",
+              "quantity": 1,
+              "quality": "any",
+              "seasons": [
+                "fall"
+              ],
+              "weather": "any",
+              "time": "any",
+              "source": "forage",
+              "location": "The Mines",
+              "dayGated": false,
+              "howToGet": "Deep in the Mines, or the Farm Cave (mushroom option)."
+            },
+            {
+              "id": "exotic-foraging-maple-syrup",
+              "name": "Maple Syrup",
+              "sprite": "/sprites/maple-syrup.png",
+              "quantity": 1,
+              "quality": "any",
+              "seasons": [
+                "spring",
+                "summer",
+                "fall",
+                "winter"
+              ],
+              "weather": "any",
+              "time": "any",
+              "source": "artisan",
+              "location": "Anywhere (Tapper)",
+              "dayGated": false,
+              "howToGet": "From a Tapper placed on a Maple Tree."
+            },
+            {
+              "id": "exotic-foraging-oak-resin",
+              "name": "Oak Resin",
+              "sprite": "/sprites/oak-resin.png",
+              "quantity": 1,
+              "quality": "any",
+              "seasons": [
+                "spring",
+                "summer",
+                "fall",
+                "winter"
+              ],
+              "weather": "any",
+              "time": "any",
+              "source": "artisan",
+              "location": "Anywhere (Tapper)",
+              "dayGated": false,
+              "howToGet": "From a Tapper placed on an Oak Tree."
+            },
+            {
+              "id": "exotic-foraging-pine-tar",
+              "name": "Pine Tar",
+              "sprite": "/sprites/pine-tar.png",
+              "quantity": 1,
+              "quality": "any",
+              "seasons": [
+                "spring",
+                "summer",
+                "fall",
+                "winter"
+              ],
+              "weather": "any",
+              "time": "any",
+              "source": "artisan",
+              "location": "Anywhere (Tapper)",
+              "dayGated": false,
+              "howToGet": "From a Tapper placed on a Pine Tree."
+            },
+            {
+              "id": "exotic-foraging-morel",
+              "name": "Morel",
+              "sprite": "/sprites/morel.png",
+              "quantity": 1,
+              "quality": "any",
+              "seasons": [
+                "spring"
+              ],
+              "weather": "any",
+              "time": "any",
+              "source": "forage",
+              "location": "Secret Woods",
+              "dayGated": false,
+              "howToGet": "Foraging in the Secret Woods in Spring, or the Farm Cave (mushroom option)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pantry",
+      "name": "Pantry",
+      "bundles": [
+        {
+          "id": "spring-crops",
+          "name": "Spring Crops Bundle",
+          "color": "green",
+          "needed": 4,
+          "items": [
+            {
+              "id": "spring-crops-parsnip",
+              "name": "Parsnip",
+              "sprite": "/sprites/parsnip.png",
+              "quantity": 1,
+              "quality": "any",
+              "seasons": [
+                "spring"
+              ],
+              "weather": "any",
+              "time": "any",
+              "source": "crop",
+              "location": "Farm (grown from seed)",
+              "dayGated": false,
+              "howToGet": "Grow Parsnip Seeds on the farm in Spring."
+            },
+            {
+              "id": "spring-crops-green-bean",
+              "name": "Green Bean",
+              "sprite": "/sprites/green-bean.png",
+              "quantity": 1,
+              "quality": "any",
+              "seasons": [
+                "spring"
+              ],
+              "weather": "any",
+              "time": "any",
+              "source": "crop",
+              "location": "Farm (grown from seed)",
+              "dayGated": false,
+              "howToGet": "Grow Bean Starter on the farm in Spring."
+            },
+            {
+              "id": "spring-crops-cauliflower",
+              "name": "Cauliflower",
+              "sprite": "/sprites/cauliflower.png",
+              "quantity": 1,
+              "quality": "any",
+              "seasons": [
+                "spring"
+              ],
+              "weather": "any",
+              "time": "any",
+              "source": "crop",
+              "location": "Farm (grown from seed)",
+              "dayGated": false,
+              "howToGet": "Grow Cauliflower Seeds on the farm in Spring."
+            },
+            {
+              "id": "spring-crops-potato",
+              "name": "Potato",
+              "sprite": "/sprites/potato.png",
+              "quantity": 1,
+              "quality": "any",
+              "seasons": [
+                "spring"
+              ],
+              "weather": "any",
+              "time": "any",
+              "source": "crop",
+              "location": "Farm (grown from seed)",
+              "dayGated": false,
+              "howToGet": "Grow Potato Seeds on the farm in Spring."
+            }
+          ]
+        },
+        {
+          "id": "summer-crops",
+          "name": "Summer Crops Bundle",
+          "color": "yellow",
+          "needed": 4,
+          "items": [
+            {
+              "id": "summer-crops-tomato",
+              "name": "Tomato",
+              "sprite": "/sprites/tomato.png",
+              "quantity": 1,
+              "quality": "any",
+              "seasons": [
+                "summer"
+              ],
+              "weather": "any",
+              "time": "any",
+              "source": "crop",
+              "location": "Farm (grown from seed)",
+              "dayGated": false,
+              "howToGet": "Grow Tomato Seeds on the farm in Summer."
+            },
+            {
+              "id": "summer-crops-hot-pepper",
+              "name": "Hot Pepper",
+              "sprite": "/sprites/hot-pepper.png",
+              "quantity": 1,
+              "quality": "any",
+              "seasons": [
+                "summer"
+              ],
+              "weather": "any",
+              "time": "any",
+              "source": "crop",
+              "location": "Farm (grown from seed)",
+              "dayGated": false,
+              "howToGet": "Grow Pepper Seeds on the farm in Summer."
+            },
+            {
+              "id": "summer-crops-blueberry",
+              "name": "Blueberry",
+              "sprite": "/sprites/blueberry.png",
+              "quantity": 1,
+              "quality": "any",
+              "seasons": [
+                "summer"
+              ],
+              "weather": "any",
+              "time": "any",
+              "source": "crop",
+              "location": "Farm (grown from seed)",
+              "dayGated": false,
+              "howToGet": "Grow Blueberry Seeds on the farm in Summer."
+            },
+            {
+              "id": "summer-crops-melon",
+              "name": "Melon",
+              "sprite": "/sprites/melon.png",
+              "quantity": 1,
+              "quality": "any",
+              "seasons": [
+                "summer"
+              ],
+              "weather": "any",
+              "time": "any",
+              "source": "crop",
+              "location": "Farm (grown from seed)",
+              "dayGated": false,
+              "howToGet": "Grow Melon Seeds on the farm in Summer."
+            }
+          ]
+        },
+        {
+          "id": "fall-crops",
+          "name": "Fall Crops Bundle",
+          "color": "orange",
+          "needed": 4,
+          "items": [
+            {
+              "id": "fall-crops-corn",
+              "name": "Corn",
+              "sprite": "/sprites/corn.png",
+              "quantity": 1,
+              "quality": "any",
+              "seasons": [
+                "summer",
+                "fall"
+              ],
+              "weather": "any",
+              "time": "any",
+              "source": "crop",
+              "location": "Farm (grown from seed)",
+              "dayGated": false,
+              "howToGet": "Grow Corn Seeds on the farm in Summer or Fall."
+            },
+            {
+              "id": "fall-crops-eggplant",
+              "name": "Eggplant",
+              "sprite": "/sprites/eggplant.png",
+              "quantity": 1,
+              "quality": "any",
+              "seasons": [
+                "fall"
+              ],
+              "weather": "any",
+              "time": "any",
+              "source": "crop",
+              "location": "Farm (grown from seed)",
+              "dayGated": false,
+              "howToGet": "Grow Eggplant Seeds on the farm in Fall."
+            },
+            {
+              "id": "fall-crops-pumpkin",
+              "name": "Pumpkin",
+              "sprite": "/sprites/pumpkin.png",
+              "quantity": 1,
+              "quality": "any",
+              "seasons": [
+                "fall"
+              ],
+              "weather": "any",
+              "time": "any",
+              "source": "crop",
+              "location": "Farm (grown from seed)",
+              "dayGated": false,
+              "howToGet": "Grow Pumpkin Seeds on the farm in Fall."
+            },
+            {
+              "id": "fall-crops-yam",
+              "name": "Yam",
+              "sprite": "/sprites/yam.png",
+              "quantity": 1,
+              "quality": "any",
+              "seasons": [
+                "fall"
+              ],
+              "weather": "any",
+              "time": "any",
+              "source": "crop",
+              "location": "Farm (grown from seed)",
+              "dayGated": false,
+              "howToGet": "Grow Yam Seeds on the farm in Fall."
+            }
+          ]
+        },
+        {
+          "id": "quality-crops",
+          "name": "Quality Crops Bundle",
+          "color": "purple",
+          "needed": 3,
+          "items": [
+            {
+              "id": "quality-crops-parsnip",
+              "name": "Parsnip",
+              "sprite": "/sprites/parsnip.png",
+              "quantity": 5,
+              "quality": "gold",
+              "seasons": [
+                "spring"
+              ],
+              "weather": "any",
+              "time": "any",
+              "source": "crop",
+              "location": "Farm (grown from seed)",
+              "dayGated": false,
+              "howToGet": "Grow gold-quality Parsnips on the farm in Spring."
+            },
+            {
+              "id": "quality-crops-melon",
+              "name": "Melon",
+              "sprite": "/sprites/melon.png",
+              "quantity": 5,
+              "quality": "gold",
+              "seasons": [
+                "summer"
+              ],
+              "weather": "any",
+              "time": "any",
+              "source": "crop",
+              "location": "Farm (grown from seed)",
+              "dayGated": false,
+              "howToGet": "Grow gold-quality Melons on the farm in Summer."
+            },
+            {
+              "id": "quality-crops-pumpkin",
+              "name": "Pumpkin",
+              "sprite": "/sprites/pumpkin.png",
+              "quantity": 5,
+              "quality": "gold",
+              "seasons": [
+                "fall"
+              ],
+              "weather": "any",
+              "time": "any",
+              "source": "crop",
+              "location": "Farm (grown from seed)",
+              "dayGated": false,
+              "howToGet": "Grow gold-quality Pumpkins on the farm in Fall."
+            },
+            {
+              "id": "quality-crops-corn",
+              "name": "Corn",
+              "sprite": "/sprites/corn.png",
+              "quantity": 5,
+              "quality": "gold",
+              "seasons": [
+                "summer",
+                "fall"
+              ],
+              "weather": "any",
+              "time": "any",
+              "source": "crop",
+              "location": "Farm (grown from seed)",
+              "dayGated": false,
+              "howToGet": "Grow gold-quality Corn on the farm in Summer or Fall."
+            }
+          ]
+        },
+        {
+          "id": "animal",
+          "name": "Animal Bundle",
+          "color": "teal",
+          "needed": 5,
+          "items": [
+            {
+              "id": "animal-large-milk",
+              "name": "Large Milk",
+              "sprite": "/sprites/large-milk.png",
+              "quantity": 1,
+              "quality": "any",
+              "seasons": [
+                "spring",
+                "summer",
+                "fall",
+                "winter"
+              ],
+              "weather": "any",
+              "time": "any",
+              "source": "animal",
+              "location": "Coop / Barn animals",
+              "dayGated": false,
+              "howToGet": "Collect from a fully-hearted Cow in the Barn."
+            },
+            {
+              "id": "animal-large-egg-brown",
+              "name": "Large Egg (Brown)",
+              "sprite": "/sprites/large-egg-brown.png",
+              "quantity": 1,
+              "quality": "any",
+              "seasons": [
+                "spring",
+                "summer",
+                "fall",
+                "winter"
+              ],
+              "weather": "any",
+              "time": "any",
+              "source": "animal",
+              "location": "Coop / Barn animals",
+              "dayGated": false,
+              "howToGet": "Collect from a fully-hearted brown Chicken in the Coop."
+            },
+            {
+              "id": "animal-large-egg",
+              "name": "Large Egg",
+              "sprite": "/sprites/large-egg.png",
+              "quantity": 1,
+              "quality": "any",
+              "seasons": [
+                "spring",
+                "summer",
+                "fall",
+                "winter"
+              ],
+              "weather": "any",
+              "time": "any",
+              "source": "animal",
+              "location": "Coop / Barn animals",
+              "dayGated": false,
+              "howToGet": "Collect from a fully-hearted white Chicken in the Coop."
+            },
+            {
+              "id": "animal-large-goat-milk",
+              "name": "Large Goat Milk",
+              "sprite": "/sprites/large-goat-milk.png",
+              "quantity": 1,
+              "quality": "any",
+              "seasons": [
+                "spring",
+                "summer",
+                "fall",
+                "winter"
+              ],
+              "weather": "any",
+              "time": "any",
+              "source": "animal",
+              "location": "Coop / Barn animals",
+              "dayGated": false,
+              "howToGet": "Collect from a fully-hearted Goat in the Barn."
+            },
+            {
+              "id": "animal-wool",
+              "name": "Wool",
+              "sprite": "/sprites/wool.png",
+              "quantity": 1,
+              "quality": "any",
+              "seasons": [
+                "spring",
+                "summer",
+                "fall",
+                "winter"
+              ],
+              "weather": "any",
+              "time": "any",
+              "source": "animal",
+              "location": "Coop / Barn animals",
+              "dayGated": false,
+              "howToGet": "Shear a Sheep with shears or collect from a Rabbit."
+            },
+            {
+              "id": "animal-duck-egg",
+              "name": "Duck Egg",
+              "sprite": "/sprites/duck-egg.png",
+              "quantity": 1,
+              "quality": "any",
+              "seasons": [
+                "spring",
+                "summer",
+                "fall",
+                "winter"
+              ],
+              "weather": "any",
+              "time": "any",
+              "source": "animal",
+              "location": "Coop animals",
+              "dayGated": false,
+              "howToGet": "Collect from a Duck in the Coop."
+            }
+          ]
+        },
+        {
+          "id": "artisan",
+          "name": "Artisan Bundle",
+          "color": "purple",
+          "needed": 6,
+          "items": [
+            {
+              "id": "artisan-truffle-oil",
+              "name": "Truffle Oil",
+              "sprite": "/sprites/truffle-oil.png",
+              "quantity": 1,
+              "quality": "any",
+              "seasons": [
+                "spring",
+                "summer",
+                "fall",
+                "winter"
+              ],
+              "weather": "any",
+              "time": "any",
+              "source": "artisan",
+              "location": "Oil Maker (from Truffle)",
+              "dayGated": false,
+              "howToGet": "Process a Truffle in an Oil Maker."
+            },
+            {
+              "id": "artisan-cloth",
+              "name": "Cloth",
+              "sprite": "/sprites/cloth.png",
+              "quantity": 1,
+              "quality": "any",
+              "seasons": [
+                "spring",
+                "summer",
+                "fall",
+                "winter"
+              ],
+              "weather": "any",
+              "time": "any",
+              "source": "artisan",
+              "location": "Loom (from Wool)",
+              "dayGated": false,
+              "howToGet": "Process Wool in a Loom."
+            },
+            {
+              "id": "artisan-goat-cheese",
+              "name": "Goat Cheese",
+              "sprite": "/sprites/goat-cheese.png",
+              "quantity": 1,
+              "quality": "any",
+              "seasons": [
+                "spring",
+                "summer",
+                "fall",
+                "winter"
+              ],
+              "weather": "any",
+              "time": "any",
+              "source": "artisan",
+              "location": "Cheese Press (from Goat Milk)",
+              "dayGated": false,
+              "howToGet": "Process Goat Milk in a Cheese Press."
+            },
+            {
+              "id": "artisan-cheese",
+              "name": "Cheese",
+              "sprite": "/sprites/cheese.png",
+              "quantity": 1,
+              "quality": "any",
+              "seasons": [
+                "spring",
+                "summer",
+                "fall",
+                "winter"
+              ],
+              "weather": "any",
+              "time": "any",
+              "source": "artisan",
+              "location": "Cheese Press (from Milk)",
+              "dayGated": false,
+              "howToGet": "Process Milk in a Cheese Press."
+            },
+            {
+              "id": "artisan-honey",
+              "name": "Honey",
+              "sprite": "/sprites/honey.png",
+              "quantity": 1,
+              "quality": "any",
+              "seasons": [
+                "spring",
+                "summer",
+                "fall",
+                "winter"
+              ],
+              "weather": "any",
+              "time": "any",
+              "source": "artisan",
+              "location": "Bee House",
+              "dayGated": false,
+              "howToGet": "Collect Honey from a Bee House."
+            },
+            {
+              "id": "artisan-jelly",
+              "name": "Jelly",
+              "sprite": "/sprites/jelly.png",
+              "quantity": 1,
+              "quality": "any",
+              "seasons": [
+                "spring",
+                "summer",
+                "fall",
+                "winter"
+              ],
+              "weather": "any",
+              "time": "any",
+              "source": "artisan",
+              "location": "Preserves Jar (from fruit)",
+              "dayGated": false,
+              "howToGet": "Process any fruit in a Preserves Jar."
+            },
+            {
+              "id": "artisan-apple",
+              "name": "Apple",
+              "sprite": "/sprites/apple.png",
+              "quantity": 1,
+              "quality": "any",
+              "seasons": [
+                "fall"
+              ],
+              "weather": "any",
+              "time": "any",
+              "source": "forage",
+              "location": "Apple Tree (Farm)",
+              "dayGated": false,
+              "howToGet": "Harvest from a mature Apple Tree in Fall."
+            },
+            {
+              "id": "artisan-apricot",
+              "name": "Apricot",
+              "sprite": "/sprites/apricot.png",
+              "quantity": 1,
+              "quality": "any",
+              "seasons": [
+                "spring"
+              ],
+              "weather": "any",
+              "time": "any",
+              "source": "forage",
+              "location": "Apricot Tree (Farm)",
+              "dayGated": false,
+              "howToGet": "Harvest from a mature Apricot Tree in Spring."
+            },
+            {
+              "id": "artisan-orange",
+              "name": "Orange",
+              "sprite": "/sprites/orange.png",
+              "quantity": 1,
+              "quality": "any",
+              "seasons": [
+                "summer"
+              ],
+              "weather": "any",
+              "time": "any",
+              "source": "forage",
+              "location": "Orange Tree (Farm)",
+              "dayGated": false,
+              "howToGet": "Harvest from a mature Orange Tree in Summer."
+            },
+            {
+              "id": "artisan-peach",
+              "name": "Peach",
+              "sprite": "/sprites/peach.png",
+              "quantity": 1,
+              "quality": "any",
+              "seasons": [
+                "summer"
+              ],
+              "weather": "any",
+              "time": "any",
+              "source": "forage",
+              "location": "Peach Tree (Farm)",
+              "dayGated": false,
+              "howToGet": "Harvest from a mature Peach Tree in Summer."
+            },
+            {
+              "id": "artisan-pomegranate",
+              "name": "Pomegranate",
+              "sprite": "/sprites/pomegranate.png",
+              "quantity": 1,
+              "quality": "any",
+              "seasons": [
+                "fall"
+              ],
+              "weather": "any",
+              "time": "any",
+              "source": "forage",
+              "location": "Pomegranate Tree (Farm)",
+              "dayGated": false,
+              "howToGet": "Harvest from a mature Pomegranate Tree in Fall."
+            },
+            {
+              "id": "artisan-cherry",
+              "name": "Cherry",
+              "sprite": "/sprites/cherry.png",
+              "quantity": 1,
+              "quality": "any",
+              "seasons": [
+                "spring"
+              ],
+              "weather": "any",
+              "time": "any",
+              "source": "forage",
+              "location": "Cherry Tree (Farm)",
+              "dayGated": false,
+              "howToGet": "Harvest from a mature Cherry Tree in Spring."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fish-tank",
+      "name": "Fish Tank",
+      "bundles": [
+        {
+          "id": "river-fish",
+          "name": "River Fish Bundle",
+          "color": "teal",
+          "needed": 4,
+          "items": [
+            {
+              "id": "river-fish-sunfish",
+              "name": "Sunfish",
+              "sprite": "/sprites/sunfish.png",
+              "quantity": 1,
+              "quality": "any",
+              "seasons": [
+                "spring",
+                "summer"
+              ],
+              "weather": "sunny",
+              "time": "day",
+              "source": "fish",
+              "location": "River (Town/Forest)",
+              "dayGated": false,
+              "howToGet": "Catch in rivers from 6am to 7pm in spring or summer during sunny weather."
+            },
+            {
+              "id": "river-fish-catfish",
+              "name": "Catfish",
+              "sprite": "/sprites/catfish.png",
+              "quantity": 1,
+              "quality": "any",
+              "seasons": [
+                "spring",
+                "fall"
+              ],
+              "weather": "rain",
+              "time": "any",
+              "source": "fish",
+              "location": "River / Secret Woods",
+              "dayGated": false,
+              "howToGet": "Catch in rivers or Secret Woods from 6am to midnight in spring or fall while it is raining."
+            },
+            {
+              "id": "river-fish-shad",
+              "name": "Shad",
+              "sprite": "/sprites/shad.png",
+              "quantity": 1,
+              "quality": "any",
+              "seasons": [
+                "spring",
+                "summer",
+                "fall"
+              ],
+              "weather": "rain",
+              "time": "any",
+              "source": "fish",
+              "location": "River (Town/Forest)",
+              "dayGated": false,
+              "howToGet": "Catch in rivers from 9am to 2am in spring, summer, or fall while it is raining."
+            },
+            {
+              "id": "river-fish-tiger-trout",
+              "name": "Tiger Trout",
+              "sprite": "/sprites/tiger-trout.png",
+              "quantity": 1,
+              "quality": "any",
+              "seasons": [
+                "fall",
+                "winter"
+              ],
+              "weather": "any",
+              "time": "day",
+              "source": "fish",
+              "location": "River (Town/Forest)",
+              "dayGated": false,
+              "howToGet": "Catch in rivers from 6am to 7pm in fall or winter."
+            }
+          ]
+        },
+        {
+          "id": "lake-fish",
+          "name": "Lake Fish Bundle",
+          "color": "green",
+          "needed": 4,
+          "items": [
+            {
+              "id": "lake-fish-largemouth-bass",
+              "name": "Largemouth Bass",
+              "sprite": "/sprites/largemouth-bass.png",
+              "quantity": 1,
+              "quality": "any",
+              "seasons": [
+                "spring",
+                "summer",
+                "fall",
+                "winter"
+              ],
+              "weather": "any",
+              "time": "day",
+              "source": "fish",
+              "location": "Mountain Lake",
+              "dayGated": false,
+              "howToGet": "Catch in the Mountain Lake from 6am to 7pm in any season."
+            },
+            {
+              "id": "lake-fish-carp",
+              "name": "Carp",
+              "sprite": "/sprites/carp.png",
+              "quantity": 1,
+              "quality": "any",
+              "seasons": [
+                "spring",
+                "summer",
+                "fall",
+                "winter"
+              ],
+              "weather": "any",
+              "time": "any",
+              "source": "fish",
+              "location": "Mountain Lake / Secret Woods / Sewer",
+              "dayGated": false,
+              "howToGet": "Catch in the Mountain Lake in spring, summer, or fall, or in the Secret Woods and Sewer year-round."
+            },
+            {
+              "id": "lake-fish-bullhead",
+              "name": "Bullhead",
+              "sprite": "/sprites/bullhead.png",
+              "quantity": 1,
+              "quality": "any",
+              "seasons": [
+                "spring",
+                "summer",
+                "fall",
+                "winter"
+              ],
+              "weather": "any",
+              "time": "any",
+              "source": "fish",
+              "location": "Mountain Lake",
+              "dayGated": false,
+              "howToGet": "Catch in the Mountain Lake at any time in any season."
+            },
+            {
+              "id": "lake-fish-sturgeon",
+              "name": "Sturgeon",
+              "sprite": "/sprites/sturgeon.png",
+              "quantity": 1,
+              "quality": "any",
+              "seasons": [
+                "summer",
+                "winter"
+              ],
+              "weather": "any",
+              "time": "day",
+              "source": "fish",
+              "location": "Mountain Lake",
+              "dayGated": false,
+              "howToGet": "Catch in the Mountain Lake from 6am to 7pm in summer or winter."
+            }
+          ]
+        },
+        {
+          "id": "ocean-fish",
+          "name": "Ocean Fish Bundle",
+          "color": "blue",
+          "needed": 4,
+          "items": [
+            {
+              "id": "ocean-fish-sardine",
+              "name": "Sardine",
+              "sprite": "/sprites/sardine.png",
+              "quantity": 1,
+              "quality": "any",
+              "seasons": [
+                "spring",
+                "fall",
+                "winter"
+              ],
+              "weather": "any",
+              "time": "day",
+              "source": "fish",
+              "location": "Ocean",
+              "dayGated": false,
+              "howToGet": "Catch in the ocean from 6am to 7pm in spring, fall, or winter."
+            },
+            {
+              "id": "ocean-fish-tuna",
+              "name": "Tuna",
+              "sprite": "/sprites/tuna.png",
+              "quantity": 1,
+              "quality": "any",
+              "seasons": [
+                "summer",
+                "winter"
+              ],
+              "weather": "any",
+              "time": "day",
+              "source": "fish",
+              "location": "Ocean",
+              "dayGated": false,
+              "howToGet": "Catch in the ocean from 6am to 7pm in summer or winter."
+            },
+            {
+              "id": "ocean-fish-red-snapper",
+              "name": "Red Snapper",
+              "sprite": "/sprites/red-snapper.png",
+              "quantity": 1,
+              "quality": "any",
+              "seasons": [
+                "summer",
+                "fall"
+              ],
+              "weather": "rain",
+              "time": "day",
+              "source": "fish",
+              "location": "Ocean",
+              "dayGated": false,
+              "howToGet": "Catch in the ocean from 6am to 7pm in summer or fall while it is raining."
+            },
+            {
+              "id": "ocean-fish-tilapia",
+              "name": "Tilapia",
+              "sprite": "/sprites/tilapia.png",
+              "quantity": 1,
+              "quality": "any",
+              "seasons": [
+                "summer",
+                "fall"
+              ],
+              "weather": "any",
+              "time": "day",
+              "source": "fish",
+              "location": "Ocean",
+              "dayGated": false,
+              "howToGet": "Catch in the ocean from 6am to 2pm in summer or fall."
+            }
+          ]
+        },
+        {
+          "id": "night-fishing",
+          "name": "Night Fishing Bundle",
+          "color": "purple",
+          "needed": 3,
+          "items": [
+            {
+              "id": "night-fishing-walleye",
+              "name": "Walleye",
+              "sprite": "/sprites/walleye.png",
+              "quantity": 1,
+              "quality": "any",
+              "seasons": [
+                "fall"
+              ],
+              "weather": "rain",
+              "time": "any",
+              "source": "fish",
+              "location": "River / Mountain Lake / Forest Pond",
+              "dayGated": false,
+              "howToGet": "Catch in rivers, the Mountain Lake, or the Cindersap Forest pond from 12pm to 2am in fall while it is raining."
+            },
+            {
+              "id": "night-fishing-bream",
+              "name": "Bream",
+              "sprite": "/sprites/bream.png",
+              "quantity": 1,
+              "quality": "any",
+              "seasons": [
+                "spring",
+                "summer",
+                "fall",
+                "winter"
+              ],
+              "weather": "any",
+              "time": "night",
+              "source": "fish",
+              "location": "River (Town/Forest)",
+              "dayGated": false,
+              "howToGet": "Catch in rivers from 6pm to 2am in any season."
+            },
+            {
+              "id": "night-fishing-eel",
+              "name": "Eel",
+              "sprite": "/sprites/eel.png",
+              "quantity": 1,
+              "quality": "any",
+              "seasons": [
+                "spring",
+                "fall"
+              ],
+              "weather": "rain",
+              "time": "night",
+              "source": "fish",
+              "location": "Ocean",
+              "dayGated": false,
+              "howToGet": "Catch in the ocean from 4pm to 2am in spring or fall while it is raining."
+            }
+          ]
+        },
+        {
+          "id": "crab-pot",
+          "name": "Crab Pot Bundle",
+          "color": "purple",
+          "needed": 5,
+          "items": [
+            {
+              "id": "crab-pot-lobster",
+              "name": "Lobster",
+              "sprite": "/sprites/lobster.png",
+              "quantity": 1,
+              "quality": "any",
+              "seasons": [
+                "spring",
+                "summer",
+                "fall",
+                "winter"
+              ],
+              "weather": "any",
+              "time": "any",
+              "source": "fish",
+              "location": "Crab Pot (ocean/freshwater)",
+              "dayGated": false,
+              "howToGet": "Catch with a crab pot placed in the ocean."
+            },
+            {
+              "id": "crab-pot-crayfish",
+              "name": "Crayfish",
+              "sprite": "/sprites/crayfish.png",
+              "quantity": 1,
+              "quality": "any",
+              "seasons": [
+                "spring",
+                "summer",
+                "fall",
+                "winter"
+              ],
+              "weather": "any",
+              "time": "any",
+              "source": "fish",
+              "location": "Crab Pot (ocean/freshwater)",
+              "dayGated": false,
+              "howToGet": "Catch with a crab pot placed in fresh water."
+            },
+            {
+              "id": "crab-pot-crab",
+              "name": "Crab",
+              "sprite": "/sprites/crab.png",
+              "quantity": 1,
+              "quality": "any",
+              "seasons": [
+                "spring",
+                "summer",
+                "fall",
+                "winter"
+              ],
+              "weather": "any",
+              "time": "any",
+              "source": "fish",
+              "location": "Crab Pot (ocean/freshwater)",
+              "dayGated": false,
+              "howToGet": "Catch with a crab pot in the ocean, or as a drop from Rock and Lava Crabs in the Mines."
+            },
+            {
+              "id": "crab-pot-cockle",
+              "name": "Cockle",
+              "sprite": "/sprites/cockle.png",
+              "quantity": 1,
+              "quality": "any",
+              "seasons": [
+                "spring",
+                "summer",
+                "fall",
+                "winter"
+              ],
+              "weather": "any",
+              "time": "any",
+              "source": "fish",
+              "location": "Crab Pot (ocean/freshwater)",
+              "dayGated": false,
+              "howToGet": "Catch with a crab pot in the ocean, or by foraging on the beach."
+            },
+            {
+              "id": "crab-pot-mussel",
+              "name": "Mussel",
+              "sprite": "/sprites/mussel.png",
+              "quantity": 1,
+              "quality": "any",
+              "seasons": [
+                "spring",
+                "summer",
+                "fall",
+                "winter"
+              ],
+              "weather": "any",
+              "time": "any",
+              "source": "fish",
+              "location": "Crab Pot (ocean/freshwater)",
+              "dayGated": false,
+              "howToGet": "Catch with a crab pot in the ocean, or by foraging on the beach."
+            },
+            {
+              "id": "crab-pot-shrimp",
+              "name": "Shrimp",
+              "sprite": "/sprites/shrimp.png",
+              "quantity": 1,
+              "quality": "any",
+              "seasons": [
+                "spring",
+                "summer",
+                "fall",
+                "winter"
+              ],
+              "weather": "any",
+              "time": "any",
+              "source": "fish",
+              "location": "Crab Pot (ocean/freshwater)",
+              "dayGated": false,
+              "howToGet": "Catch with a crab pot placed in the ocean."
+            },
+            {
+              "id": "crab-pot-snail",
+              "name": "Snail",
+              "sprite": "/sprites/snail.png",
+              "quantity": 1,
+              "quality": "any",
+              "seasons": [
+                "spring",
+                "summer",
+                "fall",
+                "winter"
+              ],
+              "weather": "any",
+              "time": "any",
+              "source": "fish",
+              "location": "Crab Pot (ocean/freshwater)",
+              "dayGated": false,
+              "howToGet": "Catch with a crab pot placed in fresh water."
+            },
+            {
+              "id": "crab-pot-periwinkle",
+              "name": "Periwinkle",
+              "sprite": "/sprites/periwinkle.png",
+              "quantity": 1,
+              "quality": "any",
+              "seasons": [
+                "spring",
+                "summer",
+                "fall",
+                "winter"
+              ],
+              "weather": "any",
+              "time": "any",
+              "source": "fish",
+              "location": "Crab Pot (ocean/freshwater)",
+              "dayGated": false,
+              "howToGet": "Catch with a crab pot placed in fresh water."
+            },
+            {
+              "id": "crab-pot-oyster",
+              "name": "Oyster",
+              "sprite": "/sprites/oyster.png",
+              "quantity": 1,
+              "quality": "any",
+              "seasons": [
+                "spring",
+                "summer",
+                "fall",
+                "winter"
+              ],
+              "weather": "any",
+              "time": "any",
+              "source": "fish",
+              "location": "Crab Pot (ocean/freshwater)",
+              "dayGated": false,
+              "howToGet": "Catch with a crab pot in the ocean, or by foraging on the beach."
+            },
+            {
+              "id": "crab-pot-clam",
+              "name": "Clam",
+              "sprite": "/sprites/clam.png",
+              "quantity": 1,
+              "quality": "any",
+              "seasons": [
+                "spring",
+                "summer",
+                "fall",
+                "winter"
+              ],
+              "weather": "any",
+              "time": "any",
+              "source": "fish",
+              "location": "Crab Pot (ocean/freshwater)",
+              "dayGated": false,
+              "howToGet": "Catch with a crab pot in the ocean, or by foraging on the beach."
+            }
+          ]
+        },
+        {
+          "id": "specialty-fish",
+          "name": "Specialty Fish Bundle",
+          "color": "red",
+          "needed": 4,
+          "items": [
+            {
+              "id": "specialty-fish-pufferfish",
+              "name": "Pufferfish",
+              "sprite": "/sprites/pufferfish.png",
+              "quantity": 1,
+              "quality": "any",
+              "seasons": [
+                "summer"
+              ],
+              "weather": "sunny",
+              "time": "day",
+              "source": "fish",
+              "location": "Ocean",
+              "dayGated": false,
+              "howToGet": "Catch in the ocean from 12pm to 4pm in summer during sunny weather."
+            },
+            {
+              "id": "specialty-fish-ghostfish",
+              "name": "Ghostfish",
+              "sprite": "/sprites/ghostfish.png",
+              "quantity": 1,
+              "quality": "any",
+              "seasons": [
+                "spring",
+                "summer",
+                "fall",
+                "winter"
+              ],
+              "weather": "any",
+              "time": "any",
+              "source": "fish",
+              "location": "The Mines",
+              "dayGated": false,
+              "howToGet": "Catch in the ponds on Mines floors 20 and 60, or as a drop from Ghosts."
+            },
+            {
+              "id": "specialty-fish-sandfish",
+              "name": "Sandfish",
+              "sprite": "/sprites/sandfish.png",
+              "quantity": 1,
+              "quality": "any",
+              "seasons": [
+                "spring",
+                "summer",
+                "fall",
+                "winter"
+              ],
+              "weather": "any",
+              "time": "day",
+              "source": "fish",
+              "location": "The Desert",
+              "dayGated": false,
+              "howToGet": "Catch in the Desert pond from 6am to 8pm in any season."
+            },
+            {
+              "id": "specialty-fish-woodskip",
+              "name": "Woodskip",
+              "sprite": "/sprites/woodskip.png",
+              "quantity": 1,
+              "quality": "any",
+              "seasons": [
+                "spring",
+                "summer",
+                "fall",
+                "winter"
+              ],
+              "weather": "any",
+              "time": "any",
+              "source": "fish",
+              "location": "Secret Woods",
+              "dayGated": false,
+              "howToGet": "Catch in the Secret Woods pond at any time in any season."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "boiler-room",
+      "name": "Boiler Room",
+      "bundles": [
+        {
+          "id": "blacksmiths-bundle",
+          "name": "Blacksmith's Bundle",
+          "color": "orange",
+          "needed": 3,
+          "items": [
+            {
+              "id": "blacksmiths-bundle-copper-bar",
+              "name": "Copper Bar",
+              "sprite": "/sprites/copper-bar.png",
+              "quantity": 1,
+              "quality": "any",
+              "seasons": [
+                "spring",
+                "summer",
+                "fall",
+                "winter"
+              ],
+              "weather": "any",
+              "time": "any",
+              "source": "mine",
+              "location": "Furnace (smelted)",
+              "dayGated": false,
+              "howToGet": "Smelt Copper Ore in a Furnace with coal."
+            },
+            {
+              "id": "blacksmiths-bundle-iron-bar",
+              "name": "Iron Bar",
+              "sprite": "/sprites/iron-bar.png",
+              "quantity": 1,
+              "quality": "any",
+              "seasons": [
+                "spring",
+                "summer",
+                "fall",
+                "winter"
+              ],
+              "weather": "any",
+              "time": "any",
+              "source": "mine",
+              "location": "Furnace (smelted)",
+              "dayGated": false,
+              "howToGet": "Smelt Iron Ore in a Furnace with coal."
+            },
+            {
+              "id": "blacksmiths-bundle-gold-bar",
+              "name": "Gold Bar",
+              "sprite": "/sprites/gold-bar.png",
+              "quantity": 1,
+              "quality": "any",
+              "seasons": [
+                "spring",
+                "summer",
+                "fall",
+                "winter"
+              ],
+              "weather": "any",
+              "time": "any",
+              "source": "mine",
+              "location": "Furnace (smelted)",
+              "dayGated": false,
+              "howToGet": "Smelt Gold Ore in a Furnace with coal."
+            }
+          ]
+        },
+        {
+          "id": "geologists-bundle",
+          "name": "Geologist's Bundle",
+          "color": "purple",
+          "needed": 4,
+          "items": [
+            {
+              "id": "geologists-bundle-quartz",
+              "name": "Quartz",
+              "sprite": "/sprites/quartz.png",
+              "quantity": 1,
+              "quality": "any",
+              "seasons": [
+                "spring",
+                "summer",
+                "fall",
+                "winter"
+              ],
+              "weather": "any",
+              "time": "any",
+              "source": "mine",
+              "location": "The Mines",
+              "dayGated": false,
+              "howToGet": "Forage on any floor of The Mines."
+            },
+            {
+              "id": "geologists-bundle-earth-crystal",
+              "name": "Earth Crystal",
+              "sprite": "/sprites/earth-crystal.png",
+              "quantity": 1,
+              "quality": "any",
+              "seasons": [
+                "spring",
+                "summer",
+                "fall",
+                "winter"
+              ],
+              "weather": "any",
+              "time": "any",
+              "source": "mine",
+              "location": "The Mines",
+              "dayGated": false,
+              "howToGet": "Forage floors 1-39 of The Mines, crack geodes, or kill Duggies."
+            },
+            {
+              "id": "geologists-bundle-frozen-tear",
+              "name": "Frozen Tear",
+              "sprite": "/sprites/frozen-tear.png",
+              "quantity": 1,
+              "quality": "any",
+              "seasons": [
+                "spring",
+                "summer",
+                "fall",
+                "winter"
+              ],
+              "weather": "any",
+              "time": "any",
+              "source": "mine",
+              "location": "The Mines",
+              "dayGated": false,
+              "howToGet": "Forage floors 41-79 of The Mines, crack Frozen Geodes, or kill Dust Sprites."
+            },
+            {
+              "id": "geologists-bundle-fire-quartz",
+              "name": "Fire Quartz",
+              "sprite": "/sprites/fire-quartz.png",
+              "quantity": 1,
+              "quality": "any",
+              "seasons": [
+                "spring",
+                "summer",
+                "fall",
+                "winter"
+              ],
+              "weather": "any",
+              "time": "any",
+              "source": "mine",
+              "location": "The Mines",
+              "dayGated": false,
+              "howToGet": "Forage floors 81-119 of The Mines or crack Magma Geodes."
+            }
+          ]
+        },
+        {
+          "id": "adventurers-bundle",
+          "name": "Adventurer's Bundle",
+          "color": "purple",
+          "needed": 2,
+          "items": [
+            {
+              "id": "adventurers-bundle-slime",
+              "name": "Slime",
+              "sprite": "/sprites/slime.png",
+              "quantity": 99,
+              "quality": "any",
+              "seasons": [
+                "spring",
+                "summer",
+                "fall",
+                "winter"
+              ],
+              "weather": "any",
+              "time": "any",
+              "source": "combat",
+              "location": "The Mines (monsters)",
+              "dayGated": false,
+              "howToGet": "Dropped by Slimes in The Mines and Skull Cavern."
+            },
+            {
+              "id": "adventurers-bundle-bat-wing",
+              "name": "Bat Wing",
+              "sprite": "/sprites/bat-wing.png",
+              "quantity": 10,
+              "quality": "any",
+              "seasons": [
+                "spring",
+                "summer",
+                "fall",
+                "winter"
+              ],
+              "weather": "any",
+              "time": "any",
+              "source": "combat",
+              "location": "The Mines (monsters)",
+              "dayGated": false,
+              "howToGet": "Dropped by Bats in The Mines or the Skull Cavern."
+            },
+            {
+              "id": "adventurers-bundle-solar-essence",
+              "name": "Solar Essence",
+              "sprite": "/sprites/solar-essence.png",
+              "quantity": 1,
+              "quality": "any",
+              "seasons": [
+                "spring",
+                "summer",
+                "fall",
+                "winter"
+              ],
+              "weather": "any",
+              "time": "any",
+              "source": "combat",
+              "location": "The Mines (monsters)",
+              "dayGated": false,
+              "howToGet": "Dropped by Ghosts, Squid Kids, Metal Heads, or Mummies."
+            },
+            {
+              "id": "adventurers-bundle-void-essence",
+              "name": "Void Essence",
+              "sprite": "/sprites/void-essence.png",
+              "quantity": 1,
+              "quality": "any",
+              "seasons": [
+                "spring",
+                "summer",
+                "fall",
+                "winter"
+              ],
+              "weather": "any",
+              "time": "any",
+              "source": "combat",
+              "location": "The Mines (monsters)",
+              "dayGated": false,
+              "howToGet": "Dropped by Shadow Brutes, Shadow Shamans, or Serpents."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bulletin-board",
+      "name": "Bulletin Board",
+      "bundles": [
+        {
+          "id": "chefs-bundle",
+          "name": "Chef's Bundle",
+          "color": "red",
+          "needed": 6,
+          "items": [
+            {
+              "id": "chefs-bundle-maple-syrup",
+              "name": "Maple Syrup",
+              "sprite": "/sprites/maple-syrup.png",
+              "quantity": 1,
+              "quality": "any",
+              "seasons": [
+                "spring",
+                "summer",
+                "fall",
+                "winter"
+              ],
+              "weather": "any",
+              "time": "any",
+              "source": "artisan",
+              "location": "Anywhere (Tapper)",
+              "dayGated": false,
+              "howToGet": "Tap a Maple Tree with a Tapper and collect the syrup."
+            },
+            {
+              "id": "chefs-bundle-fiddlehead-fern",
+              "name": "Fiddlehead Fern",
+              "sprite": "/sprites/fiddlehead-fern.png",
+              "quantity": 1,
+              "quality": "any",
+              "seasons": [
+                "summer"
+              ],
+              "weather": "any",
+              "time": "any",
+              "source": "forage",
+              "location": "Secret Woods (Summer)",
+              "dayGated": false,
+              "howToGet": "Forage in the Secret Woods during Summer, or on Skull Cavern prehistoric floors."
+            },
+            {
+              "id": "chefs-bundle-truffle",
+              "name": "Truffle",
+              "sprite": "/sprites/truffle.png",
+              "quantity": 1,
+              "quality": "any",
+              "seasons": [
+                "spring",
+                "summer",
+                "fall"
+              ],
+              "weather": "any",
+              "time": "any",
+              "source": "animal",
+              "location": "Farm (Pigs)",
+              "dayGated": false,
+              "howToGet": "Found by Pigs foraging outdoors on non-winter days."
+            },
+            {
+              "id": "chefs-bundle-poppy",
+              "name": "Poppy",
+              "sprite": "/sprites/poppy.png",
+              "quantity": 1,
+              "quality": "any",
+              "seasons": [
+                "summer"
+              ],
+              "weather": "any",
+              "time": "any",
+              "source": "crop",
+              "location": "Farm (Summer crop)",
+              "dayGated": false,
+              "howToGet": "Grow from Poppy Seeds during Summer."
+            },
+            {
+              "id": "chefs-bundle-maki-roll",
+              "name": "Maki Roll",
+              "sprite": "/sprites/maki-roll.png",
+              "quantity": 1,
+              "quality": "any",
+              "seasons": [
+                "spring",
+                "summer",
+                "fall",
+                "winter"
+              ],
+              "weather": "any",
+              "time": "any",
+              "source": "cook",
+              "location": "Cooking (Kitchen)",
+              "dayGated": false,
+              "howToGet": "Cook from the recipe learned via the Queen of Sauce or bought at the Saloon."
+            },
+            {
+              "id": "chefs-bundle-fried-egg",
+              "name": "Fried Egg",
+              "sprite": "/sprites/fried-egg.png",
+              "quantity": 1,
+              "quality": "any",
+              "seasons": [
+                "spring",
+                "summer",
+                "fall",
+                "winter"
+              ],
+              "weather": "any",
+              "time": "any",
+              "source": "cook",
+              "location": "Cooking (Kitchen)",
+              "dayGated": false,
+              "howToGet": "Cook an Egg using the starter Fried Egg recipe."
+            }
+          ]
+        },
+        {
+          "id": "dye-bundle",
+          "name": "Dye Bundle",
+          "color": "teal",
+          "needed": 6,
+          "items": [
+            {
+              "id": "dye-bundle-red-mushroom",
+              "name": "Red Mushroom",
+              "sprite": "/sprites/red-mushroom.png",
+              "quantity": 1,
+              "quality": "any",
+              "seasons": [
+                "summer",
+                "fall"
+              ],
+              "weather": "any",
+              "time": "any",
+              "source": "forage",
+              "location": "The Mines / Secret Woods",
+              "dayGated": false,
+              "howToGet": "Forage in the Mines, or the Secret Woods during Summer or Fall."
+            },
+            {
+              "id": "dye-bundle-sea-urchin",
+              "name": "Sea Urchin",
+              "sprite": "/sprites/sea-urchin.png",
+              "quantity": 1,
+              "quality": "any",
+              "seasons": [
+                "spring",
+                "summer",
+                "fall",
+                "winter"
+              ],
+              "weather": "any",
+              "time": "any",
+              "source": "forage",
+              "location": "The Beach (forage)",
+              "dayGated": false,
+              "howToGet": "Forage on the right side of the Beach after repairing the bridge."
+            },
+            {
+              "id": "dye-bundle-sunflower",
+              "name": "Sunflower",
+              "sprite": "/sprites/sunflower.png",
+              "quantity": 1,
+              "quality": "any",
+              "seasons": [
+                "summer",
+                "fall"
+              ],
+              "weather": "any",
+              "time": "any",
+              "source": "crop",
+              "location": "Farm (Summer/Fall crop)",
+              "dayGated": false,
+              "howToGet": "Grow from Sunflower Seeds during Summer or Fall."
+            },
+            {
+              "id": "dye-bundle-duck-feather",
+              "name": "Duck Feather",
+              "sprite": "/sprites/duck-feather.png",
+              "quantity": 1,
+              "quality": "any",
+              "seasons": [
+                "spring",
+                "summer",
+                "fall",
+                "winter"
+              ],
+              "weather": "any",
+              "time": "any",
+              "source": "animal",
+              "location": "Coop (Ducks)",
+              "dayGated": false,
+              "howToGet": "Produced occasionally by Ducks in a Coop."
+            },
+            {
+              "id": "dye-bundle-aquamarine",
+              "name": "Aquamarine",
+              "sprite": "/sprites/aquamarine.png",
+              "quantity": 1,
+              "quality": "any",
+              "seasons": [
+                "spring",
+                "summer",
+                "fall",
+                "winter"
+              ],
+              "weather": "any",
+              "time": "any",
+              "source": "mine",
+              "location": "The Mines (nodes/geodes)",
+              "dayGated": false,
+              "howToGet": "Break Aquamarine Nodes in the Mines or crack open Frozen Geodes."
+            },
+            {
+              "id": "dye-bundle-red-cabbage",
+              "name": "Red Cabbage",
+              "sprite": "/sprites/red-cabbage.png",
+              "quantity": 1,
+              "quality": "any",
+              "seasons": [
+                "summer"
+              ],
+              "weather": "any",
+              "time": "any",
+              "source": "crop",
+              "location": "Farm (Summer crop)",
+              "dayGated": false,
+              "howToGet": "Grow from Red Cabbage Seeds during Summer."
+            }
+          ]
+        },
+        {
+          "id": "field-research-bundle",
+          "name": "Field Research Bundle",
+          "color": "blue",
+          "needed": 4,
+          "items": [
+            {
+              "id": "field-research-bundle-purple-mushroom",
+              "name": "Purple Mushroom",
+              "sprite": "/sprites/purple-mushroom.png",
+              "quantity": 1,
+              "quality": "any",
+              "seasons": [
+                "spring",
+                "summer",
+                "fall",
+                "winter"
+              ],
+              "weather": "any",
+              "time": "any",
+              "source": "forage",
+              "location": "The Mines / Skull Cavern",
+              "dayGated": false,
+              "howToGet": "Forage on deeper Mines floors or in the Skull Cavern."
+            },
+            {
+              "id": "field-research-bundle-nautilus-shell",
+              "name": "Nautilus Shell",
+              "sprite": "/sprites/nautilus-shell.png",
+              "quantity": 1,
+              "quality": "any",
+              "seasons": [
+                "winter"
+              ],
+              "weather": "any",
+              "time": "any",
+              "source": "forage",
+              "location": "The Beach (Winter forage)",
+              "dayGated": false,
+              "howToGet": "Forage along the Beach during Winter."
+            },
+            {
+              "id": "field-research-bundle-chub",
+              "name": "Chub",
+              "sprite": "/sprites/chub.png",
+              "quantity": 1,
+              "quality": "any",
+              "seasons": [
+                "spring",
+                "summer",
+                "fall",
+                "winter"
+              ],
+              "weather": "any",
+              "time": "any",
+              "source": "fish",
+              "location": "Mountain Lake / River",
+              "dayGated": false,
+              "howToGet": "Catch in the mountain lake or river any season, any time."
+            },
+            {
+              "id": "field-research-bundle-frozen-geode",
+              "name": "Frozen Geode",
+              "sprite": "/sprites/frozen-geode.png",
+              "quantity": 1,
+              "quality": "any",
+              "seasons": [
+                "spring",
+                "summer",
+                "fall",
+                "winter"
+              ],
+              "weather": "any",
+              "time": "any",
+              "source": "mine",
+              "location": "The Mines (floors 41-79)",
+              "dayGated": false,
+              "howToGet": "Break geode nodes or dig up on Mines floors 41-79."
+            }
+          ]
+        },
+        {
+          "id": "fodder-bundle",
+          "name": "Fodder Bundle",
+          "color": "yellow",
+          "needed": 3,
+          "items": [
+            {
+              "id": "fodder-bundle-wheat",
+              "name": "Wheat",
+              "sprite": "/sprites/wheat.png",
+              "quantity": 10,
+              "quality": "any",
+              "seasons": [
+                "summer",
+                "fall"
+              ],
+              "weather": "any",
+              "time": "any",
+              "source": "crop",
+              "location": "Farm (Summer/Fall crop)",
+              "dayGated": false,
+              "howToGet": "Grow from Wheat Seeds during Summer or Fall."
+            },
+            {
+              "id": "fodder-bundle-hay",
+              "name": "Hay",
+              "sprite": "/sprites/hay.png",
+              "quantity": 10,
+              "quality": "any",
+              "seasons": [
+                "spring",
+                "summer",
+                "fall",
+                "winter"
+              ],
+              "weather": "any",
+              "time": "any",
+              "source": "shop",
+              "location": "Marnie's Ranch / Silo",
+              "dayGated": false,
+              "howToGet": "Buy from Marnie's Ranch or the Desert Trader, or cut grass with a Scythe while a Silo is built."
+            },
+            {
+              "id": "fodder-bundle-apple",
+              "name": "Apple",
+              "sprite": "/sprites/apple.png",
+              "quantity": 3,
+              "quality": "any",
+              "seasons": [
+                "fall"
+              ],
+              "weather": "any",
+              "time": "any",
+              "source": "forage",
+              "location": "Farm (Apple Tree, Fall)",
+              "dayGated": false,
+              "howToGet": "Harvest from a mature Apple Tree during Fall."
+            }
+          ]
+        },
+        {
+          "id": "enchanters-bundle",
+          "name": "Enchanter's Bundle",
+          "color": "purple",
+          "needed": 4,
+          "items": [
+            {
+              "id": "enchanters-bundle-oak-resin",
+              "name": "Oak Resin",
+              "sprite": "/sprites/oak-resin.png",
+              "quantity": 1,
+              "quality": "any",
+              "seasons": [
+                "spring",
+                "summer",
+                "fall",
+                "winter"
+              ],
+              "weather": "any",
+              "time": "any",
+              "source": "artisan",
+              "location": "Anywhere (Tapper on Oak)",
+              "dayGated": false,
+              "howToGet": "Tap an Oak Tree with a Tapper and collect the resin."
+            },
+            {
+              "id": "enchanters-bundle-wine",
+              "name": "Wine",
+              "sprite": "/sprites/wine.png",
+              "quantity": 1,
+              "quality": "any",
+              "seasons": [
+                "spring",
+                "summer",
+                "fall",
+                "winter"
+              ],
+              "weather": "any",
+              "time": "any",
+              "source": "artisan",
+              "location": "Anywhere (Keg)",
+              "dayGated": false,
+              "howToGet": "Place any fruit in a Keg and wait for it to ferment."
+            },
+            {
+              "id": "enchanters-bundle-rabbits-foot",
+              "name": "Rabbit's Foot",
+              "sprite": "/sprites/rabbits-foot.png",
+              "quantity": 1,
+              "quality": "any",
+              "seasons": [
+                "spring",
+                "summer",
+                "fall",
+                "winter"
+              ],
+              "weather": "any",
+              "time": "any",
+              "source": "animal",
+              "location": "Coop (Rabbits)",
+              "dayGated": false,
+              "howToGet": "Produced by Rabbits, most often at high friendship."
+            },
+            {
+              "id": "enchanters-bundle-pomegranate",
+              "name": "Pomegranate",
+              "sprite": "/sprites/pomegranate.png",
+              "quantity": 1,
+              "quality": "any",
+              "seasons": [
+                "fall"
+              ],
+              "weather": "any",
+              "time": "any",
+              "source": "forage",
+              "location": "Farm (Pomegranate Tree, Fall)",
+              "dayGated": false,
+              "howToGet": "Harvest from a mature Pomegranate Tree during Fall."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vault",
+      "name": "Vault",
+      "bundles": [
+        {
+          "id": "2500g",
+          "name": "2,500g Bundle",
+          "color": "gold",
+          "needed": 1,
+          "items": [
+            {
+              "id": "2500g-gold",
+              "name": "2,500g",
+              "sprite": "/sprites/gold.png",
+              "quantity": 2500,
+              "quality": "any",
+              "seasons": [
+                "spring",
+                "summer",
+                "fall",
+                "winter"
+              ],
+              "weather": "any",
+              "time": "any",
+              "source": "money",
+              "location": "The Vault",
+              "dayGated": false,
+              "howToGet": "Donate 2,500g."
+            }
+          ]
+        },
+        {
+          "id": "5000g",
+          "name": "5,000g Bundle",
+          "color": "gold",
+          "needed": 1,
+          "items": [
+            {
+              "id": "5000g-gold",
+              "name": "5,000g",
+              "sprite": "/sprites/gold.png",
+              "quantity": 5000,
+              "quality": "any",
+              "seasons": [
+                "spring",
+                "summer",
+                "fall",
+                "winter"
+              ],
+              "weather": "any",
+              "time": "any",
+              "source": "money",
+              "location": "The Vault",
+              "dayGated": false,
+              "howToGet": "Donate 5,000g."
+            }
+          ]
+        },
+        {
+          "id": "10000g",
+          "name": "10,000g Bundle",
+          "color": "gold",
+          "needed": 1,
+          "items": [
+            {
+              "id": "10000g-gold",
+              "name": "10,000g",
+              "sprite": "/sprites/gold.png",
+              "quantity": 10000,
+              "quality": "any",
+              "seasons": [
+                "spring",
+                "summer",
+                "fall",
+                "winter"
+              ],
+              "weather": "any",
+              "time": "any",
+              "source": "money",
+              "location": "The Vault",
+              "dayGated": false,
+              "howToGet": "Donate 10,000g."
+            }
+          ]
+        },
+        {
+          "id": "25000g",
+          "name": "25,000g Bundle",
+          "color": "gold",
+          "needed": 1,
+          "items": [
+            {
+              "id": "25000g-gold",
+              "name": "25,000g",
+              "sprite": "/sprites/gold.png",
+              "quantity": 25000,
+              "quality": "any",
+              "seasons": [
+                "spring",
+                "summer",
+                "fall",
+                "winter"
+              ],
+              "weather": "any",
+              "time": "any",
+              "source": "money",
+              "location": "The Vault",
+              "dayGated": false,
+              "howToGet": "Donate 25,000g."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
