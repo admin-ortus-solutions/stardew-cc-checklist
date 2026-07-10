@@ -63,14 +63,15 @@ h2,
 
 
 .bundles {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  display: flex;
+  flex-wrap: wrap;
   gap: 16px;
   margin-bottom: 32px;
 }
 
 .bundle {
   --ribbon: #a9824e;
+  flex: 1 1 260px;
   background: var(--parchment);
   border: 3px solid var(--ribbon);
   border-radius: 4px;
