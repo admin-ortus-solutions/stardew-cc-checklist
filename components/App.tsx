@@ -5,11 +5,12 @@ import { Checklist } from "./Checklist";
 import { GiftsPanel } from "./GiftsPanel";
 import { RecipesPanel } from "./RecipesPanel";
 import { FishPanel } from "./FishPanel";
+import { PerfectionPanel } from "./PerfectionPanel";
 import { NameBar } from "./NameBar";
 import { useDisplayName } from "@/lib/useDisplayName";
 import type { CookingRecipe, CraftingRecipe, Fish, Room, Villager } from "@/lib/schema";
 
-type Tab = "cc" | "recipes" | "fish" | "gifts";
+type Tab = "cc" | "perfection" | "recipes" | "fish" | "gifts";
 
 export function App({
   rooms,
@@ -39,6 +40,13 @@ export function App({
           Community Center
         </button>
         <button
+          className={`tab${tab === "perfection" ? " tab--active" : ""}`}
+          type="button"
+          onClick={() => setTab("perfection")}
+        >
+          Perfection
+        </button>
+        <button
           className={`tab${tab === "recipes" ? " tab--active" : ""}`}
           type="button"
           onClick={() => setTab("recipes")}
@@ -61,6 +69,9 @@ export function App({
         </button>
       </nav>
       {tab === "cc" && <Checklist rooms={rooms} name={name} />}
+      {tab === "perfection" && (
+        <PerfectionPanel rooms={rooms} cooking={cooking} crafting={crafting} fish={fish} />
+      )}
       {tab === "recipes" && <RecipesPanel cooking={cooking} crafting={crafting} name={name} />}
       {tab === "fish" && <FishPanel fish={fish} name={name} />}
       {tab === "gifts" && <GiftsPanel villagers={villagers} name={name} />}

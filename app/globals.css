@@ -585,6 +585,32 @@ h2,
   flex: 0 0 auto;
 }
 
+/* Perfection overview */
+.perf-cats {
+  list-style: none;
+  margin: 0 0 32px;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.perf-cat {
+  background: var(--parchment);
+  border: 2px solid var(--parchment-edge);
+  border-radius: 4px;
+  padding: 12px;
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.2);
+}
+
+.perf-cat .progress__meta {
+  color: var(--ink);
+}
+
+.perf-cat--done {
+  border-color: var(--complete);
+}
+
 /* Recipes panel */
 .subtabs {
   display: flex;
