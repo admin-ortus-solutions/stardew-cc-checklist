@@ -4,6 +4,7 @@ import { dataset } from "@/lib/dataset";
 import { villagersDataset } from "@/lib/villagers";
 import { cookingDataset } from "@/lib/cooking";
 import { craftingDataset } from "@/lib/crafting";
+import { fishDataset } from "@/lib/fishData";
 import { isGated } from "@/lib/gate";
 
 export const dynamic = "force-dynamic";
@@ -22,6 +23,7 @@ export default async function Home() {
           villagers={villagersDataset.villagers}
           cooking={cookingDataset.recipes}
           crafting={craftingDataset.recipes}
+          fish={fishDataset.fish}
         />
       ) : (
         <Gate />

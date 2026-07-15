@@ -632,6 +632,15 @@ h2,
   border-color: var(--complete);
 }
 
+.recipe--available {
+  outline: 2px solid var(--complete);
+  outline-offset: 2px;
+}
+
+.recipe--dimmed {
+  opacity: 0.35;
+}
+
 .recipe--made .recipe__name {
   text-decoration: line-through;
   opacity: 0.6;

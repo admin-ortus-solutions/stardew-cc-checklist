@@ -1,0 +1,1277 @@
+{
+  "version": 1,
+  "game": "1.6",
+  "fish": [
+    {
+      "id": "pufferfish",
+      "name": "Pufferfish",
+      "sprite": "/fish/pufferfish.png",
+      "seasons": [
+        "summer"
+      ],
+      "weather": "sunny",
+      "time": "day",
+      "locations": [
+        "Ocean",
+        "Ginger Island (Ocean)"
+      ],
+      "howToCatch": "Ocean, Summer, sunny, 12pm-4pm. All seasons on Ginger Island."
+    },
+    {
+      "id": "anchovy",
+      "name": "Anchovy",
+      "sprite": "/fish/anchovy.png",
+      "seasons": [
+        "spring",
+        "fall"
+      ],
+      "weather": "any",
+      "time": "any",
+      "locations": [
+        "Ocean"
+      ],
+      "howToCatch": "Ocean, Spring & Fall, any weather, anytime."
+    },
+    {
+      "id": "tuna",
+      "name": "Tuna",
+      "sprite": "/fish/tuna.png",
+      "seasons": [
+        "summer",
+        "winter"
+      ],
+      "weather": "any",
+      "time": "day",
+      "locations": [
+        "Ocean",
+        "Ginger Island (Ocean)"
+      ],
+      "howToCatch": "Ocean, Summer & Winter, any weather, 6am-7pm. All seasons on Ginger Island."
+    },
+    {
+      "id": "sardine",
+      "name": "Sardine",
+      "sprite": "/fish/sardine.png",
+      "seasons": [
+        "spring",
+        "fall",
+        "winter"
+      ],
+      "weather": "any",
+      "time": "day",
+      "locations": [
+        "Ocean"
+      ],
+      "howToCatch": "Ocean, Spring/Fall/Winter, any weather, 6am-7pm."
+    },
+    {
+      "id": "bream",
+      "name": "Bream",
+      "sprite": "/fish/bream.png",
+      "seasons": [
+        "spring",
+        "summer",
+        "fall",
+        "winter"
+      ],
+      "weather": "any",
+      "time": "night",
+      "locations": [
+        "Town River",
+        "Forest River"
+      ],
+      "howToCatch": "Rivers (Town & Forest), all seasons, any weather, 6pm-2am."
+    },
+    {
+      "id": "largemouth-bass",
+      "name": "Largemouth Bass",
+      "sprite": "/fish/largemouth-bass.png",
+      "seasons": [
+        "spring",
+        "summer",
+        "fall",
+        "winter"
+      ],
+      "weather": "any",
+      "time": "day",
+      "locations": [
+        "Mountain Lake"
+      ],
+      "howToCatch": "Mountain Lake, all seasons, any weather, 6am-7pm."
+    },
+    {
+      "id": "smallmouth-bass",
+      "name": "Smallmouth Bass",
+      "sprite": "/fish/smallmouth-bass.png",
+      "seasons": [
+        "spring",
+        "fall"
+      ],
+      "weather": "any",
+      "time": "any",
+      "locations": [
+        "Town River",
+        "Forest Pond"
+      ],
+      "howToCatch": "Town River & Forest Pond, Spring & Fall, any weather, anytime."
+    },
+    {
+      "id": "rainbow-trout",
+      "name": "Rainbow Trout",
+      "sprite": "/fish/rainbow-trout.png",
+      "seasons": [
+        "summer"
+      ],
+      "weather": "sunny",
+      "time": "day",
+      "locations": [
+        "Town River",
+        "Forest River",
+        "Mountain Lake"
+      ],
+      "howToCatch": "Rivers & Mountain Lake, Summer, sunny, 6am-7pm."
+    },
+    {
+      "id": "salmon",
+      "name": "Salmon",
+      "sprite": "/fish/salmon.png",
+      "seasons": [
+        "fall"
+      ],
+      "weather": "any",
+      "time": "day",
+      "locations": [
+        "Town River",
+        "Forest River",
+        "Forest Waterfalls"
+      ],
+      "howToCatch": "Rivers & Forest waterfalls, Fall, any weather, 6am-7pm."
+    },
+    {
+      "id": "walleye",
+      "name": "Walleye",
+      "sprite": "/fish/walleye.png",
+      "seasons": [
+        "fall",
+        "winter"
+      ],
+      "weather": "rain",
+      "time": "any",
+      "locations": [
+        "Town River",
+        "Forest River",
+        "Forest Pond",
+        "Mountain Lake"
+      ],
+      "howToCatch": "Rivers, ponds & Mountain Lake, Fall (or Winter with Rain Totem), rainy, 12pm-2am."
+    },
+    {
+      "id": "perch",
+      "name": "Perch",
+      "sprite": "/fish/perch.png",
+      "seasons": [
+        "winter"
+      ],
+      "weather": "any",
+      "time": "any",
+      "locations": [
+        "Town River",
+        "Forest River",
+        "Forest Pond",
+        "Mountain Lake"
+      ],
+      "howToCatch": "Rivers, ponds & Mountain Lake, Winter, any weather, anytime."
+    },
+    {
+      "id": "carp",
+      "name": "Carp",
+      "sprite": "/fish/carp.png",
+      "seasons": [
+        "spring",
+        "summer",
+        "fall",
+        "winter"
+      ],
+      "weather": "any",
+      "time": "any",
+      "locations": [
+        "Mountain Lake",
+        "Secret Woods",
+        "Sewers",
+        "Mutant Bug Lair"
+      ],
+      "howToCatch": "Mountain Lake, Secret Woods, Sewers & Mutant Bug Lair, all seasons, any weather, anytime."
+    },
+    {
+      "id": "catfish",
+      "name": "Catfish",
+      "sprite": "/fish/catfish.png",
+      "seasons": [
+        "spring",
+        "summer",
+        "fall",
+        "winter"
+      ],
+      "weather": "rain",
+      "time": "any",
+      "locations": [
+        "Town River",
+        "Forest River",
+        "Secret Woods",
+        "Witch's Swamp"
+      ],
+      "howToCatch": "Rivers (Spring & Fall, rainy) and Secret Woods pond (Spring & Summer); Winter needs a Rain Totem. 6am-12am."
+    },
+    {
+      "id": "pike",
+      "name": "Pike",
+      "sprite": "/fish/pike.png",
+      "seasons": [
+        "summer",
+        "winter"
+      ],
+      "weather": "any",
+      "time": "any",
+      "locations": [
+        "Town River",
+        "Forest River",
+        "Forest Pond"
+      ],
+      "howToCatch": "Rivers & Forest Pond, Summer & Winter, any weather, anytime."
+    },
+    {
+      "id": "sunfish",
+      "name": "Sunfish",
+      "sprite": "/fish/sunfish.png",
+      "seasons": [
+        "spring",
+        "summer"
+      ],
+      "weather": "sunny",
+      "time": "day",
+      "locations": [
+        "Town River",
+        "Forest River"
+      ],
+      "howToCatch": "Rivers, Spring & Summer, sunny/windy (not rain), 6am-7pm."
+    },
+    {
+      "id": "red-mullet",
+      "name": "Red Mullet",
+      "sprite": "/fish/red-mullet.png",
+      "seasons": [
+        "summer",
+        "winter"
+      ],
+      "weather": "any",
+      "time": "day",
+      "locations": [
+        "Ocean"
+      ],
+      "howToCatch": "Ocean, Summer & Winter, any weather, 6am-7pm."
+    },
+    {
+      "id": "herring",
+      "name": "Herring",
+      "sprite": "/fish/herring.png",
+      "seasons": [
+        "spring",
+        "winter"
+      ],
+      "weather": "any",
+      "time": "any",
+      "locations": [
+        "Ocean"
+      ],
+      "howToCatch": "Ocean, Spring & Winter, any weather, anytime."
+    },
+    {
+      "id": "eel",
+      "name": "Eel",
+      "sprite": "/fish/eel.png",
+      "seasons": [
+        "spring",
+        "fall"
+      ],
+      "weather": "rain",
+      "time": "night",
+      "locations": [
+        "Ocean"
+      ],
+      "howToCatch": "Ocean, Spring & Fall, rainy, 4pm-2am."
+    },
+    {
+      "id": "octopus",
+      "name": "Octopus",
+      "sprite": "/fish/octopus.png",
+      "seasons": [
+        "summer"
+      ],
+      "weather": "any",
+      "time": "day",
+      "locations": [
+        "Ocean",
+        "Ginger Island (Ocean)"
+      ],
+      "howToCatch": "Ocean, Summer, any weather, 6am-1pm. All seasons on Ginger Island."
+    },
+    {
+      "id": "red-snapper",
+      "name": "Red Snapper",
+      "sprite": "/fish/red-snapper.png",
+      "seasons": [
+        "summer",
+        "fall",
+        "winter"
+      ],
+      "weather": "rain",
+      "time": "day",
+      "locations": [
+        "Ocean"
+      ],
+      "howToCatch": "Ocean, Summer & Fall (or Winter with Rain Totem), rainy, 6am-7pm."
+    },
+    {
+      "id": "squid",
+      "name": "Squid",
+      "sprite": "/fish/squid.png",
+      "seasons": [
+        "winter"
+      ],
+      "weather": "any",
+      "time": "night",
+      "locations": [
+        "Ocean"
+      ],
+      "howToCatch": "Ocean, Winter, any weather, 6pm-2am."
+    },
+    {
+      "id": "sea-cucumber",
+      "name": "Sea Cucumber",
+      "sprite": "/fish/sea-cucumber.png",
+      "seasons": [
+        "fall",
+        "winter"
+      ],
+      "weather": "any",
+      "time": "day",
+      "locations": [
+        "Ocean"
+      ],
+      "howToCatch": "Ocean, Fall & Winter, any weather, 6am-7pm."
+    },
+    {
+      "id": "super-cucumber",
+      "name": "Super Cucumber",
+      "sprite": "/fish/super-cucumber.png",
+      "seasons": [
+        "summer",
+        "fall"
+      ],
+      "weather": "any",
+      "time": "night",
+      "locations": [
+        "Ocean",
+        "Ginger Island (Ocean)"
+      ],
+      "howToCatch": "Ocean, Summer & Fall, any weather, 6pm-2am. All seasons on Ginger Island."
+    },
+    {
+      "id": "ghostfish",
+      "name": "Ghostfish",
+      "sprite": "/fish/ghostfish.png",
+      "seasons": [
+        "spring",
+        "summer",
+        "fall",
+        "winter"
+      ],
+      "weather": "any",
+      "time": "any",
+      "locations": [
+        "The Mines"
+      ],
+      "howToCatch": "The Mines (floors 20 & 60), all seasons, any weather, anytime. Also drops from Ghosts."
+    },
+    {
+      "id": "stonefish",
+      "name": "Stonefish",
+      "sprite": "/fish/stonefish.png",
+      "seasons": [
+        "spring",
+        "summer",
+        "fall",
+        "winter"
+      ],
+      "weather": "any",
+      "time": "any",
+      "locations": [
+        "The Mines"
+      ],
+      "howToCatch": "The Mines (floor 20), all seasons, any weather, anytime."
+    },
+    {
+      "id": "ice-pip",
+      "name": "Ice Pip",
+      "sprite": "/fish/ice-pip.png",
+      "seasons": [
+        "spring",
+        "summer",
+        "fall",
+        "winter"
+      ],
+      "weather": "any",
+      "time": "any",
+      "locations": [
+        "The Mines"
+      ],
+      "howToCatch": "The Mines (floor 60), all seasons, any weather, anytime."
+    },
+    {
+      "id": "lava-eel",
+      "name": "Lava Eel",
+      "sprite": "/fish/lava-eel.png",
+      "seasons": [
+        "spring",
+        "summer",
+        "fall",
+        "winter"
+      ],
+      "weather": "any",
+      "time": "any",
+      "locations": [
+        "The Mines",
+        "Volcano Caldera"
+      ],
+      "howToCatch": "The Mines (floor 100) & Volcano Caldera, all seasons, any weather, anytime."
+    },
+    {
+      "id": "sandfish",
+      "name": "Sandfish",
+      "sprite": "/fish/sandfish.png",
+      "seasons": [
+        "spring",
+        "summer",
+        "fall",
+        "winter"
+      ],
+      "weather": "any",
+      "time": "day",
+      "locations": [
+        "The Desert"
+      ],
+      "howToCatch": "The Desert (Calico Desert pond), all seasons, any weather, 6am-8pm."
+    },
+    {
+      "id": "scorpion-carp",
+      "name": "Scorpion Carp",
+      "sprite": "/fish/scorpion-carp.png",
+      "seasons": [
+        "spring",
+        "summer",
+        "fall",
+        "winter"
+      ],
+      "weather": "any",
+      "time": "day",
+      "locations": [
+        "The Desert"
+      ],
+      "howToCatch": "The Desert, all seasons, any weather, 6am-8pm. Requires fishing level 4."
+    },
+    {
+      "id": "flounder",
+      "name": "Flounder",
+      "sprite": "/fish/flounder.png",
+      "seasons": [
+        "spring",
+        "summer"
+      ],
+      "weather": "any",
+      "time": "day",
+      "locations": [
+        "Ocean",
+        "Ginger Island (Ocean)"
+      ],
+      "howToCatch": "Ocean, Spring & Summer, any weather, 6am-8pm. All seasons on Ginger Island."
+    },
+    {
+      "id": "midnight-carp",
+      "name": "Midnight Carp",
+      "sprite": "/fish/midnight-carp.png",
+      "seasons": [
+        "fall",
+        "winter"
+      ],
+      "weather": "any",
+      "time": "night",
+      "locations": [
+        "Forest Pond",
+        "Mountain Lake",
+        "Ginger Island (Rivers)"
+      ],
+      "howToCatch": "Forest Pond & Mountain Lake, Fall & Winter, any weather, 10pm-2am. All seasons on Ginger Island."
+    },
+    {
+      "id": "sturgeon",
+      "name": "Sturgeon",
+      "sprite": "/fish/sturgeon.png",
+      "seasons": [
+        "summer",
+        "winter"
+      ],
+      "weather": "any",
+      "time": "day",
+      "locations": [
+        "Mountain Lake"
+      ],
+      "howToCatch": "Mountain Lake, Summer & Winter, any weather, 6am-7pm."
+    },
+    {
+      "id": "tiger-trout",
+      "name": "Tiger Trout",
+      "sprite": "/fish/tiger-trout.png",
+      "seasons": [
+        "fall",
+        "winter"
+      ],
+      "weather": "any",
+      "time": "day",
+      "locations": [
+        "Town River",
+        "Forest River"
+      ],
+      "howToCatch": "Rivers, Fall & Winter, any weather, 6am-7pm."
+    },
+    {
+      "id": "bullhead",
+      "name": "Bullhead",
+      "sprite": "/fish/bullhead.png",
+      "seasons": [
+        "spring",
+        "summer",
+        "fall",
+        "winter"
+      ],
+      "weather": "any",
+      "time": "any",
+      "locations": [
+        "Mountain Lake"
+      ],
+      "howToCatch": "Mountain Lake, all seasons, any weather, anytime."
+    },
+    {
+      "id": "tilapia",
+      "name": "Tilapia",
+      "sprite": "/fish/tilapia.png",
+      "seasons": [
+        "summer",
+        "fall"
+      ],
+      "weather": "any",
+      "time": "day",
+      "locations": [
+        "Ocean",
+        "Ginger Island (Rivers)"
+      ],
+      "howToCatch": "Ocean, Summer & Fall, any weather, 6am-2pm. All seasons on Ginger Island rivers."
+    },
+    {
+      "id": "chub",
+      "name": "Chub",
+      "sprite": "/fish/chub.png",
+      "seasons": [
+        "spring",
+        "summer",
+        "fall",
+        "winter"
+      ],
+      "weather": "any",
+      "time": "any",
+      "locations": [
+        "Forest River",
+        "Mountain Lake"
+      ],
+      "howToCatch": "Forest River & Mountain Lake, all seasons, any weather, anytime."
+    },
+    {
+      "id": "dorado",
+      "name": "Dorado",
+      "sprite": "/fish/dorado.png",
+      "seasons": [
+        "summer"
+      ],
+      "weather": "any",
+      "time": "day",
+      "locations": [
+        "Forest River"
+      ],
+      "howToCatch": "Forest River, Summer, any weather, 6am-7pm."
+    },
+    {
+      "id": "albacore",
+      "name": "Albacore",
+      "sprite": "/fish/albacore.png",
+      "seasons": [
+        "fall",
+        "winter"
+      ],
+      "weather": "any",
+      "time": "any",
+      "locations": [
+        "Ocean"
+      ],
+      "howToCatch": "Ocean, Fall & Winter, any weather, 6am-11am and 6pm-2am."
+    },
+    {
+      "id": "shad",
+      "name": "Shad",
+      "sprite": "/fish/shad.png",
+      "seasons": [
+        "spring",
+        "summer",
+        "fall"
+      ],
+      "weather": "rain",
+      "time": "any",
+      "locations": [
+        "Town River",
+        "Forest River"
+      ],
+      "howToCatch": "Rivers, Spring/Summer/Fall, rainy, 9am-2am."
+    },
+    {
+      "id": "lingcod",
+      "name": "Lingcod",
+      "sprite": "/fish/lingcod.png",
+      "seasons": [
+        "winter"
+      ],
+      "weather": "any",
+      "time": "any",
+      "locations": [
+        "Town River",
+        "Forest River",
+        "Mountain Lake"
+      ],
+      "howToCatch": "Rivers & Mountain Lake, Winter, any weather, anytime."
+    },
+    {
+      "id": "halibut",
+      "name": "Halibut",
+      "sprite": "/fish/halibut.png",
+      "seasons": [
+        "spring",
+        "summer",
+        "winter"
+      ],
+      "weather": "any",
+      "time": "any",
+      "locations": [
+        "Ocean"
+      ],
+      "howToCatch": "Ocean, Spring/Summer/Winter, any weather, 6am-11am and 7pm-2am."
+    },
+    {
+      "id": "woodskip",
+      "name": "Woodskip",
+      "sprite": "/fish/woodskip.png",
+      "seasons": [
+        "spring",
+        "summer",
+        "fall",
+        "winter"
+      ],
+      "weather": "any",
+      "time": "any",
+      "locations": [
+        "Secret Woods",
+        "Forest Farm"
+      ],
+      "howToCatch": "Secret Woods (and ponds on the Forest Farm), all seasons, any weather, anytime."
+    },
+    {
+      "id": "void-salmon",
+      "name": "Void Salmon",
+      "sprite": "/fish/void-salmon.png",
+      "seasons": [
+        "spring",
+        "summer",
+        "fall",
+        "winter"
+      ],
+      "weather": "any",
+      "time": "any",
+      "locations": [
+        "Witch's Swamp"
+      ],
+      "howToCatch": "Witch's Swamp, all seasons, any weather, anytime."
+    },
+    {
+      "id": "slimejack",
+      "name": "Slimejack",
+      "sprite": "/fish/slimejack.png",
+      "seasons": [
+        "spring",
+        "summer",
+        "fall",
+        "winter"
+      ],
+      "weather": "any",
+      "time": "any",
+      "locations": [
+        "Mutant Bug Lair"
+      ],
+      "howToCatch": "Mutant Bug Lair, all seasons, any weather, anytime."
+    },
+    {
+      "id": "stingray",
+      "name": "Stingray",
+      "sprite": "/fish/stingray.png",
+      "seasons": [
+        "spring",
+        "summer",
+        "fall",
+        "winter"
+      ],
+      "weather": "any",
+      "time": "any",
+      "locations": [
+        "Ginger Island (Pirate Cove)"
+      ],
+      "howToCatch": "Pirate Cove on Ginger Island, all seasons, any weather, anytime."
+    },
+    {
+      "id": "lionfish",
+      "name": "Lionfish",
+      "sprite": "/fish/lionfish.png",
+      "seasons": [
+        "spring",
+        "summer",
+        "fall",
+        "winter"
+      ],
+      "weather": "any",
+      "time": "any",
+      "locations": [
+        "Ginger Island (Ocean)"
+      ],
+      "howToCatch": "Ginger Island ocean, all seasons, any weather, anytime."
+    },
+    {
+      "id": "blue-discus",
+      "name": "Blue Discus",
+      "sprite": "/fish/blue-discus.png",
+      "seasons": [
+        "spring",
+        "summer",
+        "fall",
+        "winter"
+      ],
+      "weather": "any",
+      "time": "any",
+      "locations": [
+        "Ginger Island (Rivers)"
+      ],
+      "howToCatch": "Ginger Island rivers, all seasons, any weather, anytime."
+    },
+    {
+      "id": "goby",
+      "name": "Goby",
+      "sprite": "/fish/goby.png",
+      "seasons": [
+        "spring",
+        "summer",
+        "fall",
+        "winter"
+      ],
+      "weather": "any",
+      "time": "any",
+      "locations": [
+        "Forest Waterfalls"
+      ],
+      "howToCatch": "Cindersap Forest waterfalls, all seasons, any weather, anytime."
+    },
+    {
+      "id": "midnight-squid",
+      "name": "Midnight Squid",
+      "sprite": "/fish/midnight-squid.png",
+      "seasons": [
+        "winter"
+      ],
+      "weather": "any",
+      "time": "night",
+      "locations": [
+        "Night Market (Submarine)"
+      ],
+      "howToCatch": "Ride the Submarine at the Night Market (Winter 15-17), night. Deep-sea catch."
+    },
+    {
+      "id": "spook-fish",
+      "name": "Spook Fish",
+      "sprite": "/fish/spook-fish.png",
+      "seasons": [
+        "winter"
+      ],
+      "weather": "any",
+      "time": "night",
+      "locations": [
+        "Night Market (Submarine)"
+      ],
+      "howToCatch": "Ride the Submarine at the Night Market (Winter 15-17), night. Deep-sea catch."
+    },
+    {
+      "id": "blobfish",
+      "name": "Blobfish",
+      "sprite": "/fish/blobfish.png",
+      "seasons": [
+        "winter"
+      ],
+      "weather": "any",
+      "time": "night",
+      "locations": [
+        "Night Market (Submarine)"
+      ],
+      "howToCatch": "Ride the Submarine at the Night Market (Winter 15-17), night. Deep-sea catch."
+    },
+    {
+      "id": "seaweed",
+      "name": "Seaweed",
+      "sprite": "/fish/seaweed.png",
+      "seasons": [
+        "spring",
+        "summer",
+        "fall",
+        "winter"
+      ],
+      "weather": "any",
+      "time": "any",
+      "locations": [
+        "Ocean"
+      ],
+      "howToCatch": "Caught while fishing in the Ocean (also foraged on the beach), all seasons, any weather, anytime."
+    },
+    {
+      "id": "green-algae",
+      "name": "Green Algae",
+      "sprite": "/fish/green-algae.png",
+      "seasons": [
+        "spring",
+        "summer",
+        "fall",
+        "winter"
+      ],
+      "weather": "any",
+      "time": "any",
+      "locations": [
+        "Town River",
+        "Forest River",
+        "Mountain Lake",
+        "Forest Pond",
+        "Sewers"
+      ],
+      "howToCatch": "Caught fishing in most freshwater locations, all seasons, any weather, anytime."
+    },
+    {
+      "id": "white-algae",
+      "name": "White Algae",
+      "sprite": "/fish/white-algae.png",
+      "seasons": [
+        "spring",
+        "summer",
+        "fall",
+        "winter"
+      ],
+      "weather": "any",
+      "time": "any",
+      "locations": [
+        "The Mines",
+        "Sewers",
+        "Mutant Bug Lair",
+        "Witch's Swamp"
+      ],
+      "howToCatch": "Caught fishing in the Mines, Sewers, Mutant Bug Lair & Witch's Swamp, all seasons, any weather, anytime."
+    },
+    {
+      "id": "sea-jelly",
+      "name": "Sea Jelly",
+      "sprite": "/fish/sea-jelly.png",
+      "seasons": [
+        "spring",
+        "summer",
+        "fall",
+        "winter"
+      ],
+      "weather": "any",
+      "time": "any",
+      "locations": [
+        "Ocean"
+      ],
+      "howToCatch": "Rare catch in saltwater (Ocean), all seasons, any weather, anytime. (1.6 addition.)"
+    },
+    {
+      "id": "river-jelly",
+      "name": "River Jelly",
+      "sprite": "/fish/river-jelly.png",
+      "seasons": [
+        "spring",
+        "summer",
+        "fall",
+        "winter"
+      ],
+      "weather": "any",
+      "time": "any",
+      "locations": [
+        "Town River",
+        "Forest River",
+        "Mountain Lake"
+      ],
+      "howToCatch": "Rare catch in freshwater (rivers/lakes), all seasons, any weather, anytime. (1.6 addition.)"
+    },
+    {
+      "id": "cave-jelly",
+      "name": "Cave Jelly",
+      "sprite": "/fish/cave-jelly.png",
+      "seasons": [
+        "spring",
+        "summer",
+        "fall",
+        "winter"
+      ],
+      "weather": "any",
+      "time": "any",
+      "locations": [
+        "The Mines"
+      ],
+      "howToCatch": "Rare catch in the Mines (floors 20, 60 & 100), all seasons, any weather, anytime. (1.6 addition.)"
+    },
+    {
+      "id": "lobster",
+      "name": "Lobster",
+      "sprite": "/fish/lobster.png",
+      "seasons": [
+        "spring",
+        "summer",
+        "fall",
+        "winter"
+      ],
+      "weather": "any",
+      "time": "any",
+      "locations": [
+        "Ocean"
+      ],
+      "howToCatch": "Ocean crab pot, all seasons, any weather, anytime."
+    },
+    {
+      "id": "clam",
+      "name": "Clam",
+      "sprite": "/fish/clam.png",
+      "seasons": [
+        "spring",
+        "summer",
+        "fall",
+        "winter"
+      ],
+      "weather": "any",
+      "time": "any",
+      "locations": [
+        "Ocean"
+      ],
+      "howToCatch": "Ocean crab pot (also foraged on the beach), all seasons, any weather, anytime."
+    },
+    {
+      "id": "crab",
+      "name": "Crab",
+      "sprite": "/fish/crab.png",
+      "seasons": [
+        "spring",
+        "summer",
+        "fall",
+        "winter"
+      ],
+      "weather": "any",
+      "time": "any",
+      "locations": [
+        "Ocean"
+      ],
+      "howToCatch": "Ocean crab pot, all seasons, any weather, anytime."
+    },
+    {
+      "id": "cockle",
+      "name": "Cockle",
+      "sprite": "/fish/cockle.png",
+      "seasons": [
+        "spring",
+        "summer",
+        "fall",
+        "winter"
+      ],
+      "weather": "any",
+      "time": "any",
+      "locations": [
+        "Ocean"
+      ],
+      "howToCatch": "Ocean crab pot, all seasons, any weather, anytime."
+    },
+    {
+      "id": "mussel",
+      "name": "Mussel",
+      "sprite": "/fish/mussel.png",
+      "seasons": [
+        "spring",
+        "summer",
+        "fall",
+        "winter"
+      ],
+      "weather": "any",
+      "time": "any",
+      "locations": [
+        "Ocean"
+      ],
+      "howToCatch": "Ocean crab pot, all seasons, any weather, anytime."
+    },
+    {
+      "id": "shrimp",
+      "name": "Shrimp",
+      "sprite": "/fish/shrimp.png",
+      "seasons": [
+        "spring",
+        "summer",
+        "fall",
+        "winter"
+      ],
+      "weather": "any",
+      "time": "any",
+      "locations": [
+        "Ocean"
+      ],
+      "howToCatch": "Ocean crab pot, all seasons, any weather, anytime."
+    },
+    {
+      "id": "oyster",
+      "name": "Oyster",
+      "sprite": "/fish/oyster.png",
+      "seasons": [
+        "spring",
+        "summer",
+        "fall",
+        "winter"
+      ],
+      "weather": "any",
+      "time": "any",
+      "locations": [
+        "Ocean"
+      ],
+      "howToCatch": "Ocean crab pot, all seasons, any weather, anytime."
+    },
+    {
+      "id": "crayfish",
+      "name": "Crayfish",
+      "sprite": "/fish/crayfish.png",
+      "seasons": [
+        "spring",
+        "summer",
+        "fall",
+        "winter"
+      ],
+      "weather": "any",
+      "time": "any",
+      "locations": [
+        "Freshwater (Rivers, Lakes, Ponds)"
+      ],
+      "howToCatch": "Freshwater crab pot, all seasons, any weather, anytime."
+    },
+    {
+      "id": "snail",
+      "name": "Snail",
+      "sprite": "/fish/snail.png",
+      "seasons": [
+        "spring",
+        "summer",
+        "fall",
+        "winter"
+      ],
+      "weather": "any",
+      "time": "any",
+      "locations": [
+        "Freshwater (Rivers, Lakes, Ponds)"
+      ],
+      "howToCatch": "Freshwater crab pot, all seasons, any weather, anytime."
+    },
+    {
+      "id": "periwinkle",
+      "name": "Periwinkle",
+      "sprite": "/fish/periwinkle.png",
+      "seasons": [
+        "spring",
+        "summer",
+        "fall",
+        "winter"
+      ],
+      "weather": "any",
+      "time": "any",
+      "locations": [
+        "Freshwater (Rivers, Lakes, Ponds)"
+      ],
+      "howToCatch": "Freshwater crab pot, all seasons, any weather, anytime."
+    },
+    {
+      "id": "crimsonfish",
+      "name": "Crimsonfish",
+      "sprite": "/fish/crimsonfish.png",
+      "seasons": [
+        "summer"
+      ],
+      "weather": "any",
+      "time": "any",
+      "locations": [
+        "Ocean"
+      ],
+      "howToCatch": "Legendary: East pier on the Beach, Summer, any weather, anytime. Requires fishing level 5. One per save."
+    },
+    {
+      "id": "angler",
+      "name": "Angler",
+      "sprite": "/fish/angler.png",
+      "seasons": [
+        "fall"
+      ],
+      "weather": "any",
+      "time": "any",
+      "locations": [
+        "Town River"
+      ],
+      "howToCatch": "Legendary: near the waterfall/log bridge north of JojaMart, Fall, any weather, anytime. Requires fishing level 3. One per save."
+    },
+    {
+      "id": "legend",
+      "name": "Legend",
+      "sprite": "/fish/legend.png",
+      "seasons": [
+        "spring"
+      ],
+      "weather": "rain",
+      "time": "any",
+      "locations": [
+        "Mountain Lake"
+      ],
+      "howToCatch": "Legendary: Mountain Lake near the log, Spring, rainy, anytime. Requires fishing level 10. One per save."
+    },
+    {
+      "id": "glacierfish",
+      "name": "Glacierfish",
+      "sprite": "/fish/glacierfish.png",
+      "seasons": [
+        "winter"
+      ],
+      "weather": "any",
+      "time": "any",
+      "locations": [
+        "Forest River"
+      ],
+      "howToCatch": "Legendary: south tip of Arrowhead Island in Cindersap Forest, Winter, any weather, anytime. Requires fishing level 6. One per save."
+    },
+    {
+      "id": "mutant-carp",
+      "name": "Mutant Carp",
+      "sprite": "/fish/mutant-carp.png",
+      "seasons": [
+        "spring",
+        "summer",
+        "fall",
+        "winter"
+      ],
+      "weather": "any",
+      "time": "any",
+      "locations": [
+        "Sewers"
+      ],
+      "howToCatch": "Legendary: The Sewers, all seasons, any weather, anytime. One per save."
+    },
+    {
+      "id": "son-of-crimsonfish",
+      "name": "Son of Crimsonfish",
+      "sprite": "/fish/son-of-crimsonfish.png",
+      "seasons": [
+        "spring",
+        "summer",
+        "fall",
+        "winter"
+      ],
+      "weather": "any",
+      "time": "any",
+      "locations": [
+        "Ocean"
+      ],
+      "howToCatch": "Legendary II (Qi's Extended Family quest): East pier on the Beach, any season/weather/time. Requires fishing level 5 and the quest active. One per save."
+    },
+    {
+      "id": "ms-angler",
+      "name": "Ms. Angler",
+      "sprite": "/fish/ms-angler.png",
+      "seasons": [
+        "spring",
+        "summer",
+        "fall",
+        "winter"
+      ],
+      "weather": "any",
+      "time": "any",
+      "locations": [
+        "Town River"
+      ],
+      "howToCatch": "Legendary II (Qi's Extended Family quest): north of JojaMart by the waterfall, any season/weather/time. Requires fishing level 3 and the quest active. One per save."
+    },
+    {
+      "id": "legend-ii",
+      "name": "Legend II",
+      "sprite": "/fish/legend-ii.png",
+      "seasons": [
+        "spring",
+        "summer",
+        "fall",
+        "winter"
+      ],
+      "weather": "rain",
+      "time": "any",
+      "locations": [
+        "Mountain Lake"
+      ],
+      "howToCatch": "Legendary II (Qi's Extended Family quest): Mountain Lake near the log, rainy, any season/time. Requires fishing level 10 and the quest active. One per save."
+    },
+    {
+      "id": "glacierfish-jr",
+      "name": "Glacierfish Jr.",
+      "sprite": "/fish/glacierfish-jr.png",
+      "seasons": [
+        "spring",
+        "summer",
+        "fall",
+        "winter"
+      ],
+      "weather": "any",
+      "time": "any",
+      "locations": [
+        "Forest River"
+      ],
+      "howToCatch": "Legendary II (Qi's Extended Family quest): Arrowhead Island in Cindersap Forest, any season/weather/time. Requires fishing level 6 and the quest active. One per save."
+    },
+    {
+      "id": "radioactive-carp",
+      "name": "Radioactive Carp",
+      "sprite": "/fish/radioactive-carp.png",
+      "seasons": [
+        "spring",
+        "summer",
+        "fall",
+        "winter"
+      ],
+      "weather": "any",
+      "time": "any",
+      "locations": [
+        "Sewers"
+      ],
+      "howToCatch": "Legendary II (Qi's Extended Family quest): The Sewers, any season/weather/time. Requires the quest active. One per save."
+    }
+  ]
+}

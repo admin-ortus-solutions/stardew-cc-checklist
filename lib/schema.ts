@@ -132,6 +132,25 @@ export const CraftingDatasetSchema = z.object({
   }),
 });
 
+export const FishSchema = z.object({
+  id: slug,
+  name: z.string().min(1),
+  sprite: z.string().startsWith("/fish/"),
+  seasons: z.array(z.enum(SEASONS)).min(1),
+  weather: z.enum(WEATHERS),
+  time: z.enum(TIMES),
+  locations: z.array(z.string().min(1)).min(1),
+  howToCatch: z.string().min(1),
+});
+
+export const FishDatasetSchema = z.object({
+  version: z.number().int().positive(),
+  game: z.string().min(1),
+  fish: z.array(FishSchema).min(1).refine(uniqueIds, {
+    message: "fish ids must be unique",
+  }),
+});
+
 export type BundleItem = z.infer<typeof BundleItemSchema>;
 export type GiftItem = z.infer<typeof GiftItemSchema>;
 export type Villager = z.infer<typeof VillagerSchema>;
@@ -148,3 +167,5 @@ export type CookingRecipe = z.infer<typeof CookingRecipeSchema>;
 export type CraftingRecipe = z.infer<typeof CraftingRecipeSchema>;
 export type CookingDataset = z.infer<typeof CookingDatasetSchema>;
 export type CraftingDataset = z.infer<typeof CraftingDatasetSchema>;
+export type Fish = z.infer<typeof FishSchema>;
+export type FishDataset = z.infer<typeof FishDatasetSchema>;
