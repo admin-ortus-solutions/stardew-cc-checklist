@@ -2,6 +2,8 @@ import { App } from "@/components/App";
 import { Gate } from "@/components/Gate";
 import { dataset } from "@/lib/dataset";
 import { villagersDataset } from "@/lib/villagers";
+import { cookingDataset } from "@/lib/cooking";
+import { craftingDataset } from "@/lib/crafting";
 import { isGated } from "@/lib/gate";
 
 export const dynamic = "force-dynamic";
@@ -15,7 +17,12 @@ export default async function Home() {
         Community Center &amp; villager gifts · Stardew Valley {dataset.game}
       </p>
       {gated ? (
-        <App rooms={dataset.rooms} villagers={villagersDataset.villagers} />
+        <App
+          rooms={dataset.rooms}
+          villagers={villagersDataset.villagers}
+          cooking={cookingDataset.recipes}
+          crafting={craftingDataset.recipes}
+        />
       ) : (
         <Gate />
       )}

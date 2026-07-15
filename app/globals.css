@@ -584,3 +584,127 @@ h2,
   image-rendering: pixelated;
   flex: 0 0 auto;
 }
+
+/* Recipes panel */
+.subtabs {
+  display: flex;
+  gap: 6px;
+  margin-bottom: 12px;
+}
+
+.subtab {
+  font-family: var(--display);
+  font-size: 0.95rem;
+  padding: 4px 16px;
+  border: 2px solid var(--wood-seam);
+  border-radius: 6px;
+  background: rgba(0, 0, 0, 0.2);
+  color: var(--parchment);
+  cursor: pointer;
+}
+
+.subtab--active {
+  background: var(--junimo);
+}
+
+.recipes {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 8px;
+  margin-bottom: 32px;
+}
+
+.recipe {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--parchment);
+  border: 2px solid var(--parchment-edge);
+  border-radius: 4px;
+  padding: 6px 8px;
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.2);
+}
+
+.recipe--made {
+  border-color: var(--complete);
+}
+
+.recipe--made .recipe__name {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+.recipe__check {
+  flex: 0 0 auto;
+}
+
+.recipe__sprite {
+  image-rendering: pixelated;
+  flex: 0 0 auto;
+}
+
+.recipe__body {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.recipe__name {
+  cursor: pointer;
+}
+
+.recipe__secondary {
+  font-size: 0.7em;
+  opacity: 0.7;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.recipe__learn {
+  font-size: 0.7em;
+  padding: 0 6px;
+  border-radius: 4px;
+  white-space: nowrap;
+  flex: 0 0 auto;
+  background: #e0cfa6;
+  border: 1px solid #b79a63;
+  cursor: help;
+}
+
+.recipe__learn--queen_of_sauce {
+  background: #d3c7e8;
+  border-color: #9a83c7;
+}
+.recipe__learn--friendship {
+  background: #f2c0b0;
+  border-color: #d07a5f;
+}
+.recipe__learn--skill {
+  background: #cfe6b8;
+  border-color: #8fbb63;
+}
+.recipe__learn--shop {
+  background: #f0d9a8;
+  border-color: #cba85e;
+}
+.recipe__learn--start {
+  background: #bcd8ec;
+  border-color: #6ea8cf;
+}
+.recipe__learn--special {
+  background: #e5d3bd;
+  border-color: #b79a7d;
+}
+
+.recipe__by {
+  font-size: 0.7em;
+  color: var(--complete);
+  font-style: italic;
+  white-space: nowrap;
+  flex: 0 0 auto;
+}

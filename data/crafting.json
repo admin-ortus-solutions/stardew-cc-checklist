@@ -1,0 +1,1496 @@
+{
+  "version": 1,
+  "game": "1.6",
+  "recipes": [
+    {
+      "id": "cherry-bomb",
+      "name": "Cherry Bomb",
+      "sprite": "/recipes/cherry-bomb.png",
+      "category": "Bombs",
+      "howToLearn": {
+        "source": "skill",
+        "detail": "Mining Level 1"
+      }
+    },
+    {
+      "id": "bomb",
+      "name": "Bomb",
+      "sprite": "/recipes/bomb.png",
+      "category": "Bombs",
+      "howToLearn": {
+        "source": "skill",
+        "detail": "Mining Level 6"
+      }
+    },
+    {
+      "id": "mega-bomb",
+      "name": "Mega Bomb",
+      "sprite": "/recipes/mega-bomb.png",
+      "category": "Bombs",
+      "howToLearn": {
+        "source": "skill",
+        "detail": "Mining Level 8"
+      }
+    },
+    {
+      "id": "gate",
+      "name": "Gate",
+      "sprite": "/recipes/gate.png",
+      "category": "Fences",
+      "howToLearn": {
+        "source": "start",
+        "detail": "Known from the start"
+      }
+    },
+    {
+      "id": "wood-fence",
+      "name": "Wood Fence",
+      "sprite": "/recipes/wood-fence.png",
+      "category": "Fences",
+      "howToLearn": {
+        "source": "start",
+        "detail": "Known from the start"
+      }
+    },
+    {
+      "id": "stone-fence",
+      "name": "Stone Fence",
+      "sprite": "/recipes/stone-fence.png",
+      "category": "Fences",
+      "howToLearn": {
+        "source": "skill",
+        "detail": "Farming Level 2"
+      }
+    },
+    {
+      "id": "iron-fence",
+      "name": "Iron Fence",
+      "sprite": "/recipes/iron-fence.png",
+      "category": "Fences",
+      "howToLearn": {
+        "source": "skill",
+        "detail": "Farming Level 4"
+      }
+    },
+    {
+      "id": "hardwood-fence",
+      "name": "Hardwood Fence",
+      "sprite": "/recipes/hardwood-fence.png",
+      "category": "Fences",
+      "howToLearn": {
+        "source": "skill",
+        "detail": "Farming Level 6"
+      }
+    },
+    {
+      "id": "sprinkler",
+      "name": "Sprinkler",
+      "sprite": "/recipes/sprinkler.png",
+      "category": "Sprinklers",
+      "howToLearn": {
+        "source": "skill",
+        "detail": "Farming Level 2"
+      }
+    },
+    {
+      "id": "quality-sprinkler",
+      "name": "Quality Sprinkler",
+      "sprite": "/recipes/quality-sprinkler.png",
+      "category": "Sprinklers",
+      "howToLearn": {
+        "source": "skill",
+        "detail": "Farming Level 6"
+      }
+    },
+    {
+      "id": "iridium-sprinkler",
+      "name": "Iridium Sprinkler",
+      "sprite": "/recipes/iridium-sprinkler.png",
+      "category": "Sprinklers",
+      "howToLearn": {
+        "source": "skill",
+        "detail": "Farming Level 9"
+      }
+    },
+    {
+      "id": "mayonnaise-machine",
+      "name": "Mayonnaise Machine",
+      "sprite": "/recipes/mayonnaise-machine.png",
+      "category": "Artisan Equipment",
+      "howToLearn": {
+        "source": "skill",
+        "detail": "Farming Level 2"
+      }
+    },
+    {
+      "id": "bee-house",
+      "name": "Bee House",
+      "sprite": "/recipes/bee-house.png",
+      "category": "Artisan Equipment",
+      "howToLearn": {
+        "source": "skill",
+        "detail": "Farming Level 3"
+      }
+    },
+    {
+      "id": "preserves-jar",
+      "name": "Preserves Jar",
+      "sprite": "/recipes/preserves-jar.png",
+      "category": "Artisan Equipment",
+      "howToLearn": {
+        "source": "skill",
+        "detail": "Farming Level 4"
+      }
+    },
+    {
+      "id": "cheese-press",
+      "name": "Cheese Press",
+      "sprite": "/recipes/cheese-press.png",
+      "category": "Artisan Equipment",
+      "howToLearn": {
+        "source": "skill",
+        "detail": "Farming Level 6"
+      }
+    },
+    {
+      "id": "loom",
+      "name": "Loom",
+      "sprite": "/recipes/loom.png",
+      "category": "Artisan Equipment",
+      "howToLearn": {
+        "source": "skill",
+        "detail": "Farming Level 7"
+      }
+    },
+    {
+      "id": "keg",
+      "name": "Keg",
+      "sprite": "/recipes/keg.png",
+      "category": "Artisan Equipment",
+      "howToLearn": {
+        "source": "skill",
+        "detail": "Farming Level 8"
+      }
+    },
+    {
+      "id": "oil-maker",
+      "name": "Oil Maker",
+      "sprite": "/recipes/oil-maker.png",
+      "category": "Artisan Equipment",
+      "howToLearn": {
+        "source": "skill",
+        "detail": "Farming Level 8"
+      }
+    },
+    {
+      "id": "cask",
+      "name": "Cask",
+      "sprite": "/recipes/cask.png",
+      "category": "Artisan Equipment",
+      "howToLearn": {
+        "source": "special",
+        "detail": "Requires the Farmhouse cellar upgrade (Pierre → house upgrade from Robin)"
+      }
+    },
+    {
+      "id": "fish-smoker",
+      "name": "Fish Smoker",
+      "sprite": "/recipes/fish-smoker.png",
+      "category": "Artisan Equipment",
+      "howToLearn": {
+        "source": "shop",
+        "detail": "Fish Shop (Willy) for 10,000g"
+      }
+    },
+    {
+      "id": "dehydrator",
+      "name": "Dehydrator",
+      "sprite": "/recipes/dehydrator.png",
+      "category": "Artisan Equipment",
+      "howToLearn": {
+        "source": "shop",
+        "detail": "Pierre's General Store for 10,000g"
+      }
+    },
+    {
+      "id": "basic-fertilizer",
+      "name": "Basic Fertilizer",
+      "sprite": "/recipes/basic-fertilizer.png",
+      "category": "Fertilizer",
+      "howToLearn": {
+        "source": "skill",
+        "detail": "Farming Level 1"
+      }
+    },
+    {
+      "id": "quality-fertilizer",
+      "name": "Quality Fertilizer",
+      "sprite": "/recipes/quality-fertilizer.png",
+      "category": "Fertilizer",
+      "howToLearn": {
+        "source": "skill",
+        "detail": "Farming Level 9"
+      }
+    },
+    {
+      "id": "deluxe-fertilizer",
+      "name": "Deluxe Fertilizer",
+      "sprite": "/recipes/deluxe-fertilizer.png",
+      "category": "Fertilizer",
+      "howToLearn": {
+        "source": "special",
+        "detail": "Qi's Walnut Room (Mr. Qi) for 20 Qi Gems"
+      }
+    },
+    {
+      "id": "speed-gro",
+      "name": "Speed-Gro",
+      "sprite": "/recipes/speed-gro.png",
+      "category": "Fertilizer",
+      "howToLearn": {
+        "source": "skill",
+        "detail": "Farming Level 3"
+      }
+    },
+    {
+      "id": "deluxe-speed-gro",
+      "name": "Deluxe Speed-Gro",
+      "sprite": "/recipes/deluxe-speed-gro.png",
+      "category": "Fertilizer",
+      "howToLearn": {
+        "source": "skill",
+        "detail": "Farming Level 8"
+      }
+    },
+    {
+      "id": "hyper-speed-gro",
+      "name": "Hyper Speed-Gro",
+      "sprite": "/recipes/hyper-speed-gro.png",
+      "category": "Fertilizer",
+      "howToLearn": {
+        "source": "special",
+        "detail": "Qi's Walnut Room (Mr. Qi) for 30 Qi Gems"
+      }
+    },
+    {
+      "id": "basic-retaining-soil",
+      "name": "Basic Retaining Soil",
+      "sprite": "/recipes/basic-retaining-soil.png",
+      "category": "Fertilizer",
+      "howToLearn": {
+        "source": "skill",
+        "detail": "Farming Level 4"
+      }
+    },
+    {
+      "id": "quality-retaining-soil",
+      "name": "Quality Retaining Soil",
+      "sprite": "/recipes/quality-retaining-soil.png",
+      "category": "Fertilizer",
+      "howToLearn": {
+        "source": "skill",
+        "detail": "Farming Level 7"
+      }
+    },
+    {
+      "id": "deluxe-retaining-soil",
+      "name": "Deluxe Retaining Soil",
+      "sprite": "/recipes/deluxe-retaining-soil.png",
+      "category": "Fertilizer",
+      "howToLearn": {
+        "source": "shop",
+        "detail": "Island Trader for 50 Cinder Shards"
+      }
+    },
+    {
+      "id": "tree-fertilizer",
+      "name": "Tree Fertilizer",
+      "sprite": "/recipes/tree-fertilizer.png",
+      "category": "Fertilizer",
+      "howToLearn": {
+        "source": "skill",
+        "detail": "Foraging Level 7"
+      }
+    },
+    {
+      "id": "spring-seeds",
+      "name": "Spring Seeds",
+      "sprite": "/recipes/spring-seeds.png",
+      "category": "Seeds",
+      "howToLearn": {
+        "source": "skill",
+        "detail": "Foraging Level 1"
+      }
+    },
+    {
+      "id": "summer-seeds",
+      "name": "Summer Seeds",
+      "sprite": "/recipes/summer-seeds.png",
+      "category": "Seeds",
+      "howToLearn": {
+        "source": "skill",
+        "detail": "Foraging Level 4"
+      }
+    },
+    {
+      "id": "fall-seeds",
+      "name": "Fall Seeds",
+      "sprite": "/recipes/fall-seeds.png",
+      "category": "Seeds",
+      "howToLearn": {
+        "source": "skill",
+        "detail": "Foraging Level 6"
+      }
+    },
+    {
+      "id": "winter-seeds",
+      "name": "Winter Seeds",
+      "sprite": "/recipes/winter-seeds.png",
+      "category": "Seeds",
+      "howToLearn": {
+        "source": "skill",
+        "detail": "Foraging Level 7"
+      }
+    },
+    {
+      "id": "ancient-seeds",
+      "name": "Ancient Seeds",
+      "sprite": "/recipes/ancient-seeds.png",
+      "category": "Seeds",
+      "howToLearn": {
+        "source": "special",
+        "detail": "Donate an Ancient Seed artifact to the Museum"
+      }
+    },
+    {
+      "id": "grass-starter",
+      "name": "Grass Starter",
+      "sprite": "/recipes/grass-starter.png",
+      "category": "Seeds",
+      "howToLearn": {
+        "source": "shop",
+        "detail": "Pierre's General Store for 1,000g"
+      }
+    },
+    {
+      "id": "blue-grass-starter",
+      "name": "Blue Grass Starter",
+      "sprite": "/recipes/blue-grass-starter.png",
+      "category": "Seeds",
+      "howToLearn": {
+        "source": "special",
+        "detail": "Qi's Walnut Room for 40 Qi Gems"
+      }
+    },
+    {
+      "id": "tea-sapling",
+      "name": "Tea Sapling",
+      "sprite": "/recipes/tea-sapling.png",
+      "category": "Seeds",
+      "howToLearn": {
+        "source": "friendship",
+        "detail": "Mail from Caroline the day after her 2-heart event"
+      }
+    },
+    {
+      "id": "fiber-seeds",
+      "name": "Fiber Seeds",
+      "sprite": "/recipes/fiber-seeds.png",
+      "category": "Seeds",
+      "howToLearn": {
+        "source": "special",
+        "detail": "Reward from Linus’ Special Order"
+      }
+    },
+    {
+      "id": "mystic-tree-seed",
+      "name": "Mystic Tree Seed",
+      "sprite": "/recipes/mystic-tree-seed.png",
+      "category": "Seeds",
+      "howToLearn": {
+        "source": "special",
+        "detail": "Foraging Mastery (Mastery Cave, 1.6)"
+      }
+    },
+    {
+      "id": "wood-floor",
+      "name": "Wood Floor",
+      "sprite": "/recipes/wood-floor.png",
+      "category": "Decor",
+      "howToLearn": {
+        "source": "shop",
+        "detail": "Carpenter's Shop for 100g"
+      }
+    },
+    {
+      "id": "rustic-plank-floor",
+      "name": "Rustic Plank Floor",
+      "sprite": "/recipes/rustic-plank-floor.png",
+      "category": "Decor",
+      "howToLearn": {
+        "source": "shop",
+        "detail": "Carpenter's Shop for 200g"
+      }
+    },
+    {
+      "id": "straw-floor",
+      "name": "Straw Floor",
+      "sprite": "/recipes/straw-floor.png",
+      "category": "Decor",
+      "howToLearn": {
+        "source": "shop",
+        "detail": "Carpenter's Shop for 200g"
+      }
+    },
+    {
+      "id": "weathered-floor",
+      "name": "Weathered Floor",
+      "sprite": "/recipes/weathered-floor.png",
+      "category": "Decor",
+      "howToLearn": {
+        "source": "shop",
+        "detail": "Dwarf shop for 500g"
+      }
+    },
+    {
+      "id": "crystal-floor",
+      "name": "Crystal Floor",
+      "sprite": "/recipes/crystal-floor.png",
+      "category": "Decor",
+      "howToLearn": {
+        "source": "shop",
+        "detail": "Krobus' shop for 500g"
+      }
+    },
+    {
+      "id": "stone-floor",
+      "name": "Stone Floor",
+      "sprite": "/recipes/stone-floor.png",
+      "category": "Decor",
+      "howToLearn": {
+        "source": "shop",
+        "detail": "Carpenter's Shop for 100g"
+      }
+    },
+    {
+      "id": "stone-walkway-floor",
+      "name": "Stone Walkway Floor",
+      "sprite": "/recipes/stone-walkway-floor.png",
+      "category": "Decor",
+      "howToLearn": {
+        "source": "shop",
+        "detail": "Carpenter's Shop for 200g"
+      }
+    },
+    {
+      "id": "brick-floor",
+      "name": "Brick Floor",
+      "sprite": "/recipes/brick-floor.png",
+      "category": "Decor",
+      "howToLearn": {
+        "source": "shop",
+        "detail": "Carpenter's Shop for 500g"
+      }
+    },
+    {
+      "id": "wood-path",
+      "name": "Wood Path",
+      "sprite": "/recipes/wood-path.png",
+      "category": "Decor",
+      "howToLearn": {
+        "source": "start",
+        "detail": "Known from the start"
+      }
+    },
+    {
+      "id": "gravel-path",
+      "name": "Gravel Path",
+      "sprite": "/recipes/gravel-path.png",
+      "category": "Decor",
+      "howToLearn": {
+        "source": "start",
+        "detail": "Known from the start"
+      }
+    },
+    {
+      "id": "cobblestone-path",
+      "name": "Cobblestone Path",
+      "sprite": "/recipes/cobblestone-path.png",
+      "category": "Decor",
+      "howToLearn": {
+        "source": "start",
+        "detail": "Known from the start"
+      }
+    },
+    {
+      "id": "stepping-stone-path",
+      "name": "Stepping Stone Path",
+      "sprite": "/recipes/stepping-stone-path.png",
+      "category": "Decor",
+      "howToLearn": {
+        "source": "shop",
+        "detail": "Carpenter's Shop for 100g"
+      }
+    },
+    {
+      "id": "crystal-path",
+      "name": "Crystal Path",
+      "sprite": "/recipes/crystal-path.png",
+      "category": "Decor",
+      "howToLearn": {
+        "source": "shop",
+        "detail": "Carpenter's Shop for 200g"
+      }
+    },
+    {
+      "id": "spinner",
+      "name": "Spinner",
+      "sprite": "/recipes/spinner.png",
+      "category": "Fishing",
+      "howToLearn": {
+        "source": "skill",
+        "detail": "Fishing Level 6"
+      }
+    },
+    {
+      "id": "trap-bobber",
+      "name": "Trap Bobber",
+      "sprite": "/recipes/trap-bobber.png",
+      "category": "Fishing",
+      "howToLearn": {
+        "source": "skill",
+        "detail": "Fishing Level 6"
+      }
+    },
+    {
+      "id": "sonar-bobber",
+      "name": "Sonar Bobber",
+      "sprite": "/recipes/sonar-bobber.png",
+      "category": "Fishing",
+      "howToLearn": {
+        "source": "skill",
+        "detail": "Fishing Level 6"
+      }
+    },
+    {
+      "id": "cork-bobber",
+      "name": "Cork Bobber",
+      "sprite": "/recipes/cork-bobber.png",
+      "category": "Fishing",
+      "howToLearn": {
+        "source": "skill",
+        "detail": "Fishing Level 7"
+      }
+    },
+    {
+      "id": "quality-bobber",
+      "name": "Quality Bobber",
+      "sprite": "/recipes/quality-bobber.png",
+      "category": "Fishing",
+      "howToLearn": {
+        "source": "special",
+        "detail": "Reward from Willy’s Special Order"
+      }
+    },
+    {
+      "id": "treasure-hunter",
+      "name": "Treasure Hunter",
+      "sprite": "/recipes/treasure-hunter.png",
+      "category": "Fishing",
+      "howToLearn": {
+        "source": "skill",
+        "detail": "Fishing Level 7"
+      }
+    },
+    {
+      "id": "dressed-spinner",
+      "name": "Dressed Spinner",
+      "sprite": "/recipes/dressed-spinner.png",
+      "category": "Fishing",
+      "howToLearn": {
+        "source": "skill",
+        "detail": "Fishing Level 8"
+      }
+    },
+    {
+      "id": "barbed-hook",
+      "name": "Barbed Hook",
+      "sprite": "/recipes/barbed-hook.png",
+      "category": "Fishing",
+      "howToLearn": {
+        "source": "skill",
+        "detail": "Fishing Level 8"
+      }
+    },
+    {
+      "id": "magnet",
+      "name": "Magnet",
+      "sprite": "/recipes/magnet.png",
+      "category": "Fishing",
+      "howToLearn": {
+        "source": "skill",
+        "detail": "Fishing Level 9"
+      }
+    },
+    {
+      "id": "bait",
+      "name": "Bait",
+      "sprite": "/recipes/bait.png",
+      "category": "Fishing",
+      "howToLearn": {
+        "source": "skill",
+        "detail": "Fishing Level 2"
+      }
+    },
+    {
+      "id": "deluxe-bait",
+      "name": "Deluxe Bait",
+      "sprite": "/recipes/deluxe-bait.png",
+      "category": "Fishing",
+      "howToLearn": {
+        "source": "skill",
+        "detail": "Fishing Level 4"
+      }
+    },
+    {
+      "id": "wild-bait",
+      "name": "Wild Bait",
+      "sprite": "/recipes/wild-bait.png",
+      "category": "Fishing",
+      "howToLearn": {
+        "source": "friendship",
+        "detail": "Linus 4-heart event"
+      }
+    },
+    {
+      "id": "magic-bait",
+      "name": "Magic Bait",
+      "sprite": "/recipes/magic-bait.png",
+      "category": "Fishing",
+      "howToLearn": {
+        "source": "special",
+        "detail": "Qi's Walnut Room (Mr. Qi) for 20 Qi Gems"
+      }
+    },
+    {
+      "id": "challenge-bait",
+      "name": "Challenge Bait",
+      "sprite": "/recipes/challenge-bait.png",
+      "category": "Fishing",
+      "howToLearn": {
+        "source": "special",
+        "detail": "Fishing Mastery (Mastery Cave, 1.6)"
+      }
+    },
+    {
+      "id": "crab-pot",
+      "name": "Crab Pot",
+      "sprite": "/recipes/crab-pot.png",
+      "category": "Fishing",
+      "howToLearn": {
+        "source": "skill",
+        "detail": "Fishing Level 3"
+      }
+    },
+    {
+      "id": "sturdy-ring",
+      "name": "Sturdy Ring",
+      "sprite": "/recipes/sturdy-ring.png",
+      "category": "Rings",
+      "howToLearn": {
+        "source": "skill",
+        "detail": "Combat Level 1"
+      }
+    },
+    {
+      "id": "warrior-ring",
+      "name": "Warrior Ring",
+      "sprite": "/recipes/warrior-ring.png",
+      "category": "Rings",
+      "howToLearn": {
+        "source": "skill",
+        "detail": "Combat Level 4"
+      }
+    },
+    {
+      "id": "ring-of-yoba",
+      "name": "Ring of Yoba",
+      "sprite": "/recipes/ring-of-yoba.png",
+      "category": "Rings",
+      "howToLearn": {
+        "source": "skill",
+        "detail": "Combat Level 7"
+      }
+    },
+    {
+      "id": "thorns-ring",
+      "name": "Thorns Ring",
+      "sprite": "/recipes/thorns-ring.png",
+      "category": "Rings",
+      "howToLearn": {
+        "source": "skill",
+        "detail": "Combat Level 7"
+      }
+    },
+    {
+      "id": "glowstone-ring",
+      "name": "Glowstone Ring",
+      "sprite": "/recipes/glowstone-ring.png",
+      "category": "Rings",
+      "howToLearn": {
+        "source": "skill",
+        "detail": "Mining Level 4"
+      }
+    },
+    {
+      "id": "iridium-band",
+      "name": "Iridium Band",
+      "sprite": "/recipes/iridium-band.png",
+      "category": "Rings",
+      "howToLearn": {
+        "source": "skill",
+        "detail": "Combat Level 9"
+      }
+    },
+    {
+      "id": "field-snack",
+      "name": "Field Snack",
+      "sprite": "/recipes/field-snack.png",
+      "category": "Edible Items",
+      "howToLearn": {
+        "source": "skill",
+        "detail": "Foraging Level 1"
+      }
+    },
+    {
+      "id": "bug-steak",
+      "name": "Bug Steak",
+      "sprite": "/recipes/bug-steak.png",
+      "category": "Edible Items",
+      "howToLearn": {
+        "source": "skill",
+        "detail": "Combat Level 1"
+      }
+    },
+    {
+      "id": "life-elixir",
+      "name": "Life Elixir",
+      "sprite": "/recipes/life-elixir.png",
+      "category": "Edible Items",
+      "howToLearn": {
+        "source": "skill",
+        "detail": "Combat Level 2"
+      }
+    },
+    {
+      "id": "oil-of-garlic",
+      "name": "Oil of Garlic",
+      "sprite": "/recipes/oil-of-garlic.png",
+      "category": "Edible Items",
+      "howToLearn": {
+        "source": "skill",
+        "detail": "Combat Level 6"
+      }
+    },
+    {
+      "id": "monster-musk",
+      "name": "Monster Musk",
+      "sprite": "/recipes/monster-musk.png",
+      "category": "Consumables",
+      "howToLearn": {
+        "source": "special",
+        "detail": "Reward from the Wizard’s Special Order"
+      }
+    },
+    {
+      "id": "fairy-dust",
+      "name": "Fairy Dust",
+      "sprite": "/recipes/fairy-dust.png",
+      "category": "Consumables",
+      "howToLearn": {
+        "source": "special",
+        "detail": "Reward from \"The Pirate’s Wife\" Special Order"
+      }
+    },
+    {
+      "id": "warp-totem-beach",
+      "name": "Warp Totem: Beach",
+      "sprite": "/recipes/warp-totem-beach.png",
+      "category": "Consumables",
+      "howToLearn": {
+        "source": "skill",
+        "detail": "Foraging Level 6"
+      }
+    },
+    {
+      "id": "warp-totem-mountains",
+      "name": "Warp Totem: Mountains",
+      "sprite": "/recipes/warp-totem-mountains.png",
+      "category": "Consumables",
+      "howToLearn": {
+        "source": "skill",
+        "detail": "Foraging Level 7"
+      }
+    },
+    {
+      "id": "warp-totem-farm",
+      "name": "Warp Totem: Farm",
+      "sprite": "/recipes/warp-totem-farm.png",
+      "category": "Consumables",
+      "howToLearn": {
+        "source": "skill",
+        "detail": "Foraging Level 8"
+      }
+    },
+    {
+      "id": "warp-totem-desert",
+      "name": "Warp Totem: Desert",
+      "sprite": "/recipes/warp-totem-desert.png",
+      "category": "Consumables",
+      "howToLearn": {
+        "source": "shop",
+        "detail": "Desert Trader for 10 Iridium Bars"
+      }
+    },
+    {
+      "id": "warp-totem-island",
+      "name": "Warp Totem: Island",
+      "sprite": "/recipes/warp-totem-island.png",
+      "category": "Consumables",
+      "howToLearn": {
+        "source": "shop",
+        "detail": "Volcano Dwarf shop for 10,000g"
+      }
+    },
+    {
+      "id": "rain-totem",
+      "name": "Rain Totem",
+      "sprite": "/recipes/rain-totem.png",
+      "category": "Consumables",
+      "howToLearn": {
+        "source": "skill",
+        "detail": "Foraging Level 9"
+      }
+    },
+    {
+      "id": "treasure-totem",
+      "name": "Treasure Totem",
+      "sprite": "/recipes/treasure-totem.png",
+      "category": "Consumables",
+      "howToLearn": {
+        "source": "special",
+        "detail": "Foraging Mastery (Mastery Cave, 1.6)"
+      }
+    },
+    {
+      "id": "torch",
+      "name": "Torch",
+      "sprite": "/recipes/torch.png",
+      "category": "Lighting",
+      "howToLearn": {
+        "source": "start",
+        "detail": "Known from the start"
+      }
+    },
+    {
+      "id": "campfire",
+      "name": "Campfire",
+      "sprite": "/recipes/campfire.png",
+      "category": "Lighting",
+      "howToLearn": {
+        "source": "start",
+        "detail": "Known from the start"
+      }
+    },
+    {
+      "id": "wooden-brazier",
+      "name": "Wooden Brazier",
+      "sprite": "/recipes/wooden-brazier.png",
+      "category": "Lighting",
+      "howToLearn": {
+        "source": "shop",
+        "detail": "Carpenter's Shop for 250g"
+      }
+    },
+    {
+      "id": "stone-brazier",
+      "name": "Stone Brazier",
+      "sprite": "/recipes/stone-brazier.png",
+      "category": "Lighting",
+      "howToLearn": {
+        "source": "shop",
+        "detail": "Carpenter's Shop for 400g"
+      }
+    },
+    {
+      "id": "gold-brazier",
+      "name": "Gold Brazier",
+      "sprite": "/recipes/gold-brazier.png",
+      "category": "Lighting",
+      "howToLearn": {
+        "source": "shop",
+        "detail": "Carpenter's Shop for 1,000g"
+      }
+    },
+    {
+      "id": "carved-brazier",
+      "name": "Carved Brazier",
+      "sprite": "/recipes/carved-brazier.png",
+      "category": "Lighting",
+      "howToLearn": {
+        "source": "shop",
+        "detail": "Carpenter's Shop for 2,000g"
+      }
+    },
+    {
+      "id": "stump-brazier",
+      "name": "Stump Brazier",
+      "sprite": "/recipes/stump-brazier.png",
+      "category": "Lighting",
+      "howToLearn": {
+        "source": "shop",
+        "detail": "Carpenter's Shop for 800g"
+      }
+    },
+    {
+      "id": "barrel-brazier",
+      "name": "Barrel Brazier",
+      "sprite": "/recipes/barrel-brazier.png",
+      "category": "Lighting",
+      "howToLearn": {
+        "source": "shop",
+        "detail": "Carpenter's Shop for 800g"
+      }
+    },
+    {
+      "id": "skull-brazier",
+      "name": "Skull Brazier",
+      "sprite": "/recipes/skull-brazier.png",
+      "category": "Lighting",
+      "howToLearn": {
+        "source": "shop",
+        "detail": "Carpenter's Shop for 3,000g"
+      }
+    },
+    {
+      "id": "marble-brazier",
+      "name": "Marble Brazier",
+      "sprite": "/recipes/marble-brazier.png",
+      "category": "Lighting",
+      "howToLearn": {
+        "source": "shop",
+        "detail": "Carpenter's Shop for 5,000g"
+      }
+    },
+    {
+      "id": "wood-lamp-post",
+      "name": "Wood Lamp-post",
+      "sprite": "/recipes/wood-lamp-post.png",
+      "category": "Lighting",
+      "howToLearn": {
+        "source": "shop",
+        "detail": "Carpenter's Shop for 500g"
+      }
+    },
+    {
+      "id": "iron-lamp-post",
+      "name": "Iron Lamp-post",
+      "sprite": "/recipes/iron-lamp-post.png",
+      "category": "Lighting",
+      "howToLearn": {
+        "source": "shop",
+        "detail": "Carpenter's Shop for 1,000g"
+      }
+    },
+    {
+      "id": "jack-o-lantern",
+      "name": "Jack-O-Lantern",
+      "sprite": "/recipes/jack-o-lantern.png",
+      "category": "Lighting",
+      "howToLearn": {
+        "source": "shop",
+        "detail": "Pierre's stand at the Spirit's Eve festival for 2,000g"
+      }
+    },
+    {
+      "id": "charcoal-kiln",
+      "name": "Charcoal Kiln",
+      "sprite": "/recipes/charcoal-kiln.png",
+      "category": "Refining Equipment",
+      "howToLearn": {
+        "source": "skill",
+        "detail": "Foraging Level 2"
+      }
+    },
+    {
+      "id": "crystalarium",
+      "name": "Crystalarium",
+      "sprite": "/recipes/crystalarium.png",
+      "category": "Refining Equipment",
+      "howToLearn": {
+        "source": "skill",
+        "detail": "Mining Level 9"
+      }
+    },
+    {
+      "id": "furnace",
+      "name": "Furnace",
+      "sprite": "/recipes/furnace.png",
+      "category": "Refining Equipment",
+      "howToLearn": {
+        "source": "special",
+        "detail": "Clint cutscene the morning after collecting 1+ Copper Ore"
+      }
+    },
+    {
+      "id": "heavy-furnace",
+      "name": "Heavy Furnace",
+      "sprite": "/recipes/heavy-furnace.png",
+      "category": "Refining Equipment",
+      "howToLearn": {
+        "source": "special",
+        "detail": "Mining Mastery (Mastery Cave, 1.6)"
+      }
+    },
+    {
+      "id": "lightning-rod",
+      "name": "Lightning Rod",
+      "sprite": "/recipes/lightning-rod.png",
+      "category": "Refining Equipment",
+      "howToLearn": {
+        "source": "skill",
+        "detail": "Foraging Level 6"
+      }
+    },
+    {
+      "id": "solar-panel",
+      "name": "Solar Panel",
+      "sprite": "/recipes/solar-panel.png",
+      "category": "Refining Equipment",
+      "howToLearn": {
+        "source": "special",
+        "detail": "Reward from Caroline’s Special Order"
+      }
+    },
+    {
+      "id": "recycling-machine",
+      "name": "Recycling Machine",
+      "sprite": "/recipes/recycling-machine.png",
+      "category": "Refining Equipment",
+      "howToLearn": {
+        "source": "skill",
+        "detail": "Fishing Level 4"
+      }
+    },
+    {
+      "id": "seed-maker",
+      "name": "Seed Maker",
+      "sprite": "/recipes/seed-maker.png",
+      "category": "Refining Equipment",
+      "howToLearn": {
+        "source": "skill",
+        "detail": "Farming Level 9"
+      }
+    },
+    {
+      "id": "slime-incubator",
+      "name": "Slime Incubator",
+      "sprite": "/recipes/slime-incubator.png",
+      "category": "Refining Equipment",
+      "howToLearn": {
+        "source": "skill",
+        "detail": "Combat Level 8"
+      }
+    },
+    {
+      "id": "ostrich-incubator",
+      "name": "Ostrich Incubator",
+      "sprite": "/recipes/ostrich-incubator.png",
+      "category": "Refining Equipment",
+      "howToLearn": {
+        "source": "special",
+        "detail": "Complete the Island Field Office collection"
+      }
+    },
+    {
+      "id": "slime-egg-press",
+      "name": "Slime Egg-Press",
+      "sprite": "/recipes/slime-egg-press.png",
+      "category": "Refining Equipment",
+      "howToLearn": {
+        "source": "skill",
+        "detail": "Combat Level 6"
+      }
+    },
+    {
+      "id": "tapper",
+      "name": "Tapper",
+      "sprite": "/recipes/tapper.png",
+      "category": "Refining Equipment",
+      "howToLearn": {
+        "source": "skill",
+        "detail": "Foraging Level 4"
+      }
+    },
+    {
+      "id": "heavy-tapper",
+      "name": "Heavy Tapper",
+      "sprite": "/recipes/heavy-tapper.png",
+      "category": "Refining Equipment",
+      "howToLearn": {
+        "source": "special",
+        "detail": "Qi's Walnut Room (Mr. Qi) for 20 Qi Gems"
+      }
+    },
+    {
+      "id": "worm-bin",
+      "name": "Worm Bin",
+      "sprite": "/recipes/worm-bin.png",
+      "category": "Refining Equipment",
+      "howToLearn": {
+        "source": "skill",
+        "detail": "Fishing Level 4"
+      }
+    },
+    {
+      "id": "deluxe-worm-bin",
+      "name": "Deluxe Worm Bin",
+      "sprite": "/recipes/deluxe-worm-bin.png",
+      "category": "Refining Equipment",
+      "howToLearn": {
+        "source": "skill",
+        "detail": "Fishing Level 8"
+      }
+    },
+    {
+      "id": "bone-mill",
+      "name": "Bone Mill",
+      "sprite": "/recipes/bone-mill.png",
+      "category": "Refining Equipment",
+      "howToLearn": {
+        "source": "special",
+        "detail": "Reward from Gunther’s Special Order"
+      }
+    },
+    {
+      "id": "geode-crusher",
+      "name": "Geode Crusher",
+      "sprite": "/recipes/geode-crusher.png",
+      "category": "Refining Equipment",
+      "howToLearn": {
+        "source": "special",
+        "detail": "Reward from Clint’s Special Order"
+      }
+    },
+    {
+      "id": "mushroom-log",
+      "name": "Mushroom Log",
+      "sprite": "/recipes/mushroom-log.png",
+      "category": "Refining Equipment",
+      "howToLearn": {
+        "source": "skill",
+        "detail": "Foraging Level 4"
+      }
+    },
+    {
+      "id": "bait-maker",
+      "name": "Bait Maker",
+      "sprite": "/recipes/bait-maker.png",
+      "category": "Refining Equipment",
+      "howToLearn": {
+        "source": "skill",
+        "detail": "Fishing Level 6"
+      }
+    },
+    {
+      "id": "tub-o-flowers",
+      "name": "Tub o' Flowers",
+      "sprite": "/recipes/tub-o-flowers.png",
+      "category": "Furniture",
+      "howToLearn": {
+        "source": "shop",
+        "detail": "Pierre's stand at the Flower Dance for 2,000g"
+      }
+    },
+    {
+      "id": "wicked-statue",
+      "name": "Wicked Statue",
+      "sprite": "/recipes/wicked-statue.png",
+      "category": "Furniture",
+      "howToLearn": {
+        "source": "shop",
+        "detail": "Krobus' shop for 1,000g"
+      }
+    },
+    {
+      "id": "flute-block",
+      "name": "Flute Block",
+      "sprite": "/recipes/flute-block.png",
+      "category": "Furniture",
+      "howToLearn": {
+        "source": "friendship",
+        "detail": "Robin 6-heart event"
+      }
+    },
+    {
+      "id": "drum-block",
+      "name": "Drum Block",
+      "sprite": "/recipes/drum-block.png",
+      "category": "Furniture",
+      "howToLearn": {
+        "source": "friendship",
+        "detail": "Robin 6-heart event"
+      }
+    },
+    {
+      "id": "chest",
+      "name": "Chest",
+      "sprite": "/recipes/chest.png",
+      "category": "Storage Equipment",
+      "howToLearn": {
+        "source": "start",
+        "detail": "Known from the start"
+      }
+    },
+    {
+      "id": "stone-chest",
+      "name": "Stone Chest",
+      "sprite": "/recipes/stone-chest.png",
+      "category": "Storage Equipment",
+      "howToLearn": {
+        "source": "special",
+        "detail": "Reward from Robin’s Special Order"
+      }
+    },
+    {
+      "id": "big-chest",
+      "name": "Big Chest",
+      "sprite": "/recipes/big-chest.png",
+      "category": "Storage Equipment",
+      "howToLearn": {
+        "source": "shop",
+        "detail": "Carpenter's Shop for 5,000g"
+      }
+    },
+    {
+      "id": "big-stone-chest",
+      "name": "Big Stone Chest",
+      "sprite": "/recipes/big-stone-chest.png",
+      "category": "Storage Equipment",
+      "howToLearn": {
+        "source": "shop",
+        "detail": "Dwarf shop for 5,000g"
+      }
+    },
+    {
+      "id": "wood-sign",
+      "name": "Wood Sign",
+      "sprite": "/recipes/wood-sign.png",
+      "category": "Signs",
+      "howToLearn": {
+        "source": "start",
+        "detail": "Known from the start"
+      }
+    },
+    {
+      "id": "stone-sign",
+      "name": "Stone Sign",
+      "sprite": "/recipes/stone-sign.png",
+      "category": "Signs",
+      "howToLearn": {
+        "source": "start",
+        "detail": "Known from the start"
+      }
+    },
+    {
+      "id": "dark-sign",
+      "name": "Dark Sign",
+      "sprite": "/recipes/dark-sign.png",
+      "category": "Signs",
+      "howToLearn": {
+        "source": "friendship",
+        "detail": "Mail from Krobus at 3+ friendship hearts"
+      }
+    },
+    {
+      "id": "text-sign",
+      "name": "Text Sign",
+      "sprite": "/recipes/text-sign.png",
+      "category": "Signs",
+      "howToLearn": {
+        "source": "start",
+        "detail": "Known from the start"
+      }
+    },
+    {
+      "id": "garden-pot",
+      "name": "Garden Pot",
+      "sprite": "/recipes/garden-pot.png",
+      "category": "Misc",
+      "howToLearn": {
+        "source": "special",
+        "detail": "Evelyn cutscene after completing the Greenhouse (Community Center / JojaMart)"
+      }
+    },
+    {
+      "id": "scarecrow",
+      "name": "Scarecrow",
+      "sprite": "/recipes/scarecrow.png",
+      "category": "Misc",
+      "howToLearn": {
+        "source": "skill",
+        "detail": "Farming Level 1"
+      }
+    },
+    {
+      "id": "deluxe-scarecrow",
+      "name": "Deluxe Scarecrow",
+      "sprite": "/recipes/deluxe-scarecrow.png",
+      "category": "Misc",
+      "howToLearn": {
+        "source": "special",
+        "detail": "Mail the day after collecting all 8 rarecrows"
+      }
+    },
+    {
+      "id": "staircase",
+      "name": "Staircase",
+      "sprite": "/recipes/staircase.png",
+      "category": "Misc",
+      "howToLearn": {
+        "source": "skill",
+        "detail": "Mining Level 2"
+      }
+    },
+    {
+      "id": "explosive-ammo",
+      "name": "Explosive Ammo",
+      "sprite": "/recipes/explosive-ammo.png",
+      "category": "Misc",
+      "howToLearn": {
+        "source": "skill",
+        "detail": "Combat Level 8"
+      }
+    },
+    {
+      "id": "transmute-fe",
+      "name": "Transmute (Fe)",
+      "sprite": "/recipes/transmute-fe.png",
+      "category": "Misc",
+      "howToLearn": {
+        "source": "skill",
+        "detail": "Mining Level 4"
+      }
+    },
+    {
+      "id": "transmute-au",
+      "name": "Transmute (Au)",
+      "sprite": "/recipes/transmute-au.png",
+      "category": "Misc",
+      "howToLearn": {
+        "source": "skill",
+        "detail": "Mining Level 7"
+      }
+    },
+    {
+      "id": "mini-jukebox",
+      "name": "Mini-Jukebox",
+      "sprite": "/recipes/mini-jukebox.png",
+      "category": "Misc",
+      "howToLearn": {
+        "source": "friendship",
+        "detail": "Gus 5-heart event"
+      }
+    },
+    {
+      "id": "mini-obelisk",
+      "name": "Mini-Obelisk",
+      "sprite": "/recipes/mini-obelisk.png",
+      "category": "Misc",
+      "howToLearn": {
+        "source": "special",
+        "detail": "Reward from the Wizard’s Special Order"
+      }
+    },
+    {
+      "id": "farm-computer",
+      "name": "Farm Computer",
+      "sprite": "/recipes/farm-computer.png",
+      "category": "Misc",
+      "howToLearn": {
+        "source": "special",
+        "detail": "Reward from Demetrius’ Special Order"
+      }
+    },
+    {
+      "id": "hopper",
+      "name": "Hopper",
+      "sprite": "/recipes/hopper.png",
+      "category": "Misc",
+      "howToLearn": {
+        "source": "special",
+        "detail": "Qi's Walnut Room (Mr. Qi) for 50 Qi Gems"
+      }
+    },
+    {
+      "id": "cookout-kit",
+      "name": "Cookout Kit",
+      "sprite": "/recipes/cookout-kit.png",
+      "category": "Misc",
+      "howToLearn": {
+        "source": "skill",
+        "detail": "Foraging Level 3"
+      }
+    },
+    {
+      "id": "tent-kit",
+      "name": "Tent Kit",
+      "sprite": "/recipes/tent-kit.png",
+      "category": "Misc",
+      "howToLearn": {
+        "source": "skill",
+        "detail": "Foraging Level 8"
+      }
+    },
+    {
+      "id": "statue-of-the-dwarf-king",
+      "name": "Statue Of The Dwarf King",
+      "sprite": "/recipes/statue-of-the-dwarf-king.png",
+      "category": "Misc",
+      "howToLearn": {
+        "source": "special",
+        "detail": "Mining Mastery (Mastery Cave, 1.6)"
+      }
+    },
+    {
+      "id": "statue-of-blessings",
+      "name": "Statue Of Blessings",
+      "sprite": "/recipes/statue-of-blessings.png",
+      "category": "Misc",
+      "howToLearn": {
+        "source": "special",
+        "detail": "Farming Mastery (Mastery Cave, 1.6)"
+      }
+    },
+    {
+      "id": "anvil",
+      "name": "Anvil",
+      "sprite": "/recipes/anvil.png",
+      "category": "Misc",
+      "howToLearn": {
+        "source": "special",
+        "detail": "Combat Mastery (Mastery Cave, 1.6)"
+      }
+    },
+    {
+      "id": "mini-forge",
+      "name": "Mini-Forge",
+      "sprite": "/recipes/mini-forge.png",
+      "category": "Misc",
+      "howToLearn": {
+        "source": "special",
+        "detail": "Combat Mastery (Mastery Cave, 1.6)"
+      }
+    }
+  ]
+}

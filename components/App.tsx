@@ -3,13 +3,26 @@
 import { useState } from "react";
 import { Checklist } from "./Checklist";
 import { GiftsPanel } from "./GiftsPanel";
+import { RecipesPanel } from "./RecipesPanel";
 import { NameBar } from "./NameBar";
 import { useDisplayName } from "@/lib/useDisplayName";
-import type { Room, Villager } from "@/lib/schema";
+import type { CookingRecipe, CraftingRecipe, Room, Villager } from "@/lib/schema";
 
-export function App({ rooms, villagers }: { rooms: Room[]; villagers: Villager[] }) {
+type Tab = "cc" | "recipes" | "gifts";
+
+export function App({
+  rooms,
+  villagers,
+  cooking,
+  crafting,
+}: {
+  rooms: Room[];
+  villagers: Villager[];
+  cooking: CookingRecipe[];
+  crafting: CraftingRecipe[];
+}) {
   const { name, setName, hydrated } = useDisplayName();
-  const [tab, setTab] = useState<"cc" | "gifts">("cc");
+  const [tab, setTab] = useState<Tab>("cc");
 
   return (
     <div>
@@ -23,6 +36,13 @@ export function App({ rooms, villagers }: { rooms: Room[]; villagers: Villager[]
           Community Center
         </button>
         <button
+          className={`tab${tab === "recipes" ? " tab--active" : ""}`}
+          type="button"
+          onClick={() => setTab("recipes")}
+        >
+          Recipes
+        </button>
+        <button
           className={`tab${tab === "gifts" ? " tab--active" : ""}`}
           type="button"
           onClick={() => setTab("gifts")}
@@ -30,11 +50,9 @@ export function App({ rooms, villagers }: { rooms: Room[]; villagers: Villager[]
           Gifts
         </button>
       </nav>
-      {tab === "cc" ? (
-        <Checklist rooms={rooms} name={name} />
-      ) : (
-        <GiftsPanel villagers={villagers} name={name} />
-      )}
+      {tab === "cc" && <Checklist rooms={rooms} name={name} />}
+      {tab === "recipes" && <RecipesPanel cooking={cooking} crafting={crafting} name={name} />}
+      {tab === "gifts" && <GiftsPanel villagers={villagers} name={name} />}
     </div>
   );
 }

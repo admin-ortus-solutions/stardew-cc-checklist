@@ -1,0 +1,1099 @@
+{
+  "version": 1,
+  "game": "1.6",
+  "recipes": [
+    {
+      "id": "fried-egg",
+      "name": "Fried Egg",
+      "sprite": "/recipes/fried-egg.png",
+      "ingredients": [
+        "Egg"
+      ],
+      "howToLearn": {
+        "source": "start",
+        "detail": "Known from the start"
+      }
+    },
+    {
+      "id": "omelet",
+      "name": "Omelet",
+      "sprite": "/recipes/omelet.png",
+      "ingredients": [
+        "Egg",
+        "Milk"
+      ],
+      "howToLearn": {
+        "source": "queen_of_sauce",
+        "detail": "The Queen of Sauce — Spring 28, Year 1; also Stardrop Saloon for 100g"
+      }
+    },
+    {
+      "id": "salad",
+      "name": "Salad",
+      "sprite": "/recipes/salad.png",
+      "ingredients": [
+        "Leek",
+        "Dandelion",
+        "Vinegar"
+      ],
+      "howToLearn": {
+        "source": "friendship",
+        "detail": "Emily — 3-heart mail"
+      }
+    },
+    {
+      "id": "cheese-cauliflower",
+      "name": "Cheese Cauliflower",
+      "sprite": "/recipes/cheese-cauliflower.png",
+      "ingredients": [
+        "Cauliflower",
+        "Cheese"
+      ],
+      "howToLearn": {
+        "source": "friendship",
+        "detail": "Pam — 3-heart mail"
+      }
+    },
+    {
+      "id": "baked-fish",
+      "name": "Baked Fish",
+      "sprite": "/recipes/baked-fish.png",
+      "ingredients": [
+        "Sunfish",
+        "Bream",
+        "Wheat Flour"
+      ],
+      "howToLearn": {
+        "source": "queen_of_sauce",
+        "detail": "The Queen of Sauce — Summer 7, Year 1"
+      }
+    },
+    {
+      "id": "parsnip-soup",
+      "name": "Parsnip Soup",
+      "sprite": "/recipes/parsnip-soup.png",
+      "ingredients": [
+        "Parsnip",
+        "Milk",
+        "Vinegar"
+      ],
+      "howToLearn": {
+        "source": "friendship",
+        "detail": "Caroline — 3-heart mail"
+      }
+    },
+    {
+      "id": "vegetable-medley",
+      "name": "Vegetable Medley",
+      "sprite": "/recipes/vegetable-medley.png",
+      "ingredients": [
+        "Tomato",
+        "Beet"
+      ],
+      "howToLearn": {
+        "source": "friendship",
+        "detail": "Caroline — 7-heart mail"
+      }
+    },
+    {
+      "id": "complete-breakfast",
+      "name": "Complete Breakfast",
+      "sprite": "/recipes/complete-breakfast.png",
+      "ingredients": [
+        "Fried Egg",
+        "Milk",
+        "Hashbrowns",
+        "Pancakes"
+      ],
+      "howToLearn": {
+        "source": "queen_of_sauce",
+        "detail": "The Queen of Sauce — Spring 21, Year 2"
+      }
+    },
+    {
+      "id": "fried-calamari",
+      "name": "Fried Calamari",
+      "sprite": "/recipes/fried-calamari.png",
+      "ingredients": [
+        "Squid",
+        "Wheat Flour",
+        "Oil"
+      ],
+      "howToLearn": {
+        "source": "friendship",
+        "detail": "Jodi — 3-heart mail"
+      }
+    },
+    {
+      "id": "strange-bun",
+      "name": "Strange Bun",
+      "sprite": "/recipes/strange-bun.png",
+      "ingredients": [
+        "Wheat Flour",
+        "Periwinkle",
+        "Void Mayonnaise"
+      ],
+      "howToLearn": {
+        "source": "friendship",
+        "detail": "Shane — 7-heart mail"
+      }
+    },
+    {
+      "id": "lucky-lunch",
+      "name": "Lucky Lunch",
+      "sprite": "/recipes/lucky-lunch.png",
+      "ingredients": [
+        "Sea Cucumber",
+        "Tortilla",
+        "Blue Jazz"
+      ],
+      "howToLearn": {
+        "source": "queen_of_sauce",
+        "detail": "The Queen of Sauce — Spring 28, Year 2"
+      }
+    },
+    {
+      "id": "fried-mushroom",
+      "name": "Fried Mushroom",
+      "sprite": "/recipes/fried-mushroom.png",
+      "ingredients": [
+        "Common Mushroom",
+        "Morel",
+        "Oil"
+      ],
+      "howToLearn": {
+        "source": "friendship",
+        "detail": "Demetrius — 3-heart mail"
+      }
+    },
+    {
+      "id": "pizza",
+      "name": "Pizza",
+      "sprite": "/recipes/pizza.png",
+      "ingredients": [
+        "Wheat Flour",
+        "Tomato",
+        "Cheese"
+      ],
+      "howToLearn": {
+        "source": "queen_of_sauce",
+        "detail": "The Queen of Sauce — Spring 7, Year 2; also Stardrop Saloon for 150g"
+      }
+    },
+    {
+      "id": "bean-hotpot",
+      "name": "Bean Hotpot",
+      "sprite": "/recipes/bean-hotpot.png",
+      "ingredients": [
+        "Green Bean"
+      ],
+      "howToLearn": {
+        "source": "friendship",
+        "detail": "Clint — 7-heart mail"
+      }
+    },
+    {
+      "id": "glazed-yams",
+      "name": "Glazed Yams",
+      "sprite": "/recipes/glazed-yams.png",
+      "ingredients": [
+        "Yam",
+        "Sugar"
+      ],
+      "howToLearn": {
+        "source": "queen_of_sauce",
+        "detail": "The Queen of Sauce — Fall 21, Year 1"
+      }
+    },
+    {
+      "id": "carp-surprise",
+      "name": "Carp Surprise",
+      "sprite": "/recipes/carp-surprise.png",
+      "ingredients": [
+        "Carp"
+      ],
+      "howToLearn": {
+        "source": "queen_of_sauce",
+        "detail": "The Queen of Sauce — Summer 7, Year 2"
+      }
+    },
+    {
+      "id": "hashbrowns",
+      "name": "Hashbrowns",
+      "sprite": "/recipes/hashbrowns.png",
+      "ingredients": [
+        "Potato",
+        "Oil"
+      ],
+      "howToLearn": {
+        "source": "queen_of_sauce",
+        "detail": "The Queen of Sauce — Spring 14, Year 2; also Stardrop Saloon for 50g"
+      }
+    },
+    {
+      "id": "pancakes",
+      "name": "Pancakes",
+      "sprite": "/recipes/pancakes.png",
+      "ingredients": [
+        "Wheat Flour",
+        "Egg"
+      ],
+      "howToLearn": {
+        "source": "queen_of_sauce",
+        "detail": "The Queen of Sauce — Summer 14, Year 1; also Stardrop Saloon for 100g"
+      }
+    },
+    {
+      "id": "salmon-dinner",
+      "name": "Salmon Dinner",
+      "sprite": "/recipes/salmon-dinner.png",
+      "ingredients": [
+        "Salmon",
+        "Amaranth",
+        "Kale"
+      ],
+      "howToLearn": {
+        "source": "friendship",
+        "detail": "Gus — 3-heart mail"
+      }
+    },
+    {
+      "id": "fish-taco",
+      "name": "Fish Taco",
+      "sprite": "/recipes/fish-taco.png",
+      "ingredients": [
+        "Tuna",
+        "Tortilla",
+        "Red Cabbage",
+        "Mayonnaise"
+      ],
+      "howToLearn": {
+        "source": "friendship",
+        "detail": "Linus — 7-heart mail"
+      }
+    },
+    {
+      "id": "crispy-bass",
+      "name": "Crispy Bass",
+      "sprite": "/recipes/crispy-bass.png",
+      "ingredients": [
+        "Largemouth Bass",
+        "Wheat Flour",
+        "Oil"
+      ],
+      "howToLearn": {
+        "source": "friendship",
+        "detail": "Kent — 3-heart mail"
+      }
+    },
+    {
+      "id": "pepper-poppers",
+      "name": "Pepper Poppers",
+      "sprite": "/recipes/pepper-poppers.png",
+      "ingredients": [
+        "Hot Pepper",
+        "Cheese"
+      ],
+      "howToLearn": {
+        "source": "friendship",
+        "detail": "Shane — 3-heart mail"
+      }
+    },
+    {
+      "id": "bread",
+      "name": "Bread",
+      "sprite": "/recipes/bread.png",
+      "ingredients": [
+        "Wheat Flour"
+      ],
+      "howToLearn": {
+        "source": "queen_of_sauce",
+        "detail": "The Queen of Sauce — Summer 28, Year 1; also Stardrop Saloon for 100g"
+      }
+    },
+    {
+      "id": "tom-kha-soup",
+      "name": "Tom Kha Soup",
+      "sprite": "/recipes/tom-kha-soup.png",
+      "ingredients": [
+        "Coconut",
+        "Shrimp",
+        "Common Mushroom"
+      ],
+      "howToLearn": {
+        "source": "friendship",
+        "detail": "Sandy — 7-heart mail"
+      }
+    },
+    {
+      "id": "trout-soup",
+      "name": "Trout Soup",
+      "sprite": "/recipes/trout-soup.png",
+      "ingredients": [
+        "Rainbow Trout",
+        "Green Algae"
+      ],
+      "howToLearn": {
+        "source": "queen_of_sauce",
+        "detail": "The Queen of Sauce — Fall 14, Year 1"
+      }
+    },
+    {
+      "id": "chocolate-cake",
+      "name": "Chocolate Cake",
+      "sprite": "/recipes/chocolate-cake.png",
+      "ingredients": [
+        "Wheat Flour",
+        "Sugar",
+        "Egg"
+      ],
+      "howToLearn": {
+        "source": "queen_of_sauce",
+        "detail": "The Queen of Sauce — Winter 14, Year 1"
+      }
+    },
+    {
+      "id": "pink-cake",
+      "name": "Pink Cake",
+      "sprite": "/recipes/pink-cake.png",
+      "ingredients": [
+        "Melon",
+        "Wheat Flour",
+        "Sugar",
+        "Egg"
+      ],
+      "howToLearn": {
+        "source": "queen_of_sauce",
+        "detail": "The Queen of Sauce — Summer 21, Year 2"
+      }
+    },
+    {
+      "id": "rhubarb-pie",
+      "name": "Rhubarb Pie",
+      "sprite": "/recipes/rhubarb-pie.png",
+      "ingredients": [
+        "Rhubarb",
+        "Wheat Flour",
+        "Sugar"
+      ],
+      "howToLearn": {
+        "source": "friendship",
+        "detail": "Marnie — 7-heart mail"
+      }
+    },
+    {
+      "id": "cookie",
+      "name": "Cookie",
+      "sprite": "/recipes/cookie.png",
+      "ingredients": [
+        "Wheat Flour",
+        "Sugar",
+        "Egg"
+      ],
+      "howToLearn": {
+        "source": "friendship",
+        "detail": "Evelyn — 4-heart event"
+      }
+    },
+    {
+      "id": "spaghetti",
+      "name": "Spaghetti",
+      "sprite": "/recipes/spaghetti.png",
+      "ingredients": [
+        "Wheat Flour",
+        "Tomato"
+      ],
+      "howToLearn": {
+        "source": "friendship",
+        "detail": "Lewis — 3-heart mail"
+      }
+    },
+    {
+      "id": "fried-eel",
+      "name": "Fried Eel",
+      "sprite": "/recipes/fried-eel.png",
+      "ingredients": [
+        "Eel",
+        "Oil"
+      ],
+      "howToLearn": {
+        "source": "friendship",
+        "detail": "George — 3-heart mail"
+      }
+    },
+    {
+      "id": "spicy-eel",
+      "name": "Spicy Eel",
+      "sprite": "/recipes/spicy-eel.png",
+      "ingredients": [
+        "Eel",
+        "Hot Pepper"
+      ],
+      "howToLearn": {
+        "source": "friendship",
+        "detail": "George — 7-heart mail"
+      }
+    },
+    {
+      "id": "sashimi",
+      "name": "Sashimi",
+      "sprite": "/recipes/sashimi.png",
+      "ingredients": [
+        "Fish"
+      ],
+      "howToLearn": {
+        "source": "friendship",
+        "detail": "Linus — 3-heart mail"
+      }
+    },
+    {
+      "id": "maki-roll",
+      "name": "Maki Roll",
+      "sprite": "/recipes/maki-roll.png",
+      "ingredients": [
+        "Fish",
+        "Seaweed",
+        "Rice"
+      ],
+      "howToLearn": {
+        "source": "queen_of_sauce",
+        "detail": "The Queen of Sauce — Summer 21, Year 1; also Stardrop Saloon for 300g"
+      }
+    },
+    {
+      "id": "tortilla",
+      "name": "Tortilla",
+      "sprite": "/recipes/tortilla.png",
+      "ingredients": [
+        "Corn"
+      ],
+      "howToLearn": {
+        "source": "queen_of_sauce",
+        "detail": "The Queen of Sauce — Fall 7, Year 1; also Stardrop Saloon for 100g"
+      }
+    },
+    {
+      "id": "red-plate",
+      "name": "Red Plate",
+      "sprite": "/recipes/red-plate.png",
+      "ingredients": [
+        "Red Cabbage",
+        "Radish"
+      ],
+      "howToLearn": {
+        "source": "friendship",
+        "detail": "Emily — 7-heart mail"
+      }
+    },
+    {
+      "id": "eggplant-parmesan",
+      "name": "Eggplant Parmesan",
+      "sprite": "/recipes/eggplant-parmesan.png",
+      "ingredients": [
+        "Eggplant",
+        "Tomato"
+      ],
+      "howToLearn": {
+        "source": "friendship",
+        "detail": "Lewis — 7-heart mail"
+      }
+    },
+    {
+      "id": "rice-pudding",
+      "name": "Rice Pudding",
+      "sprite": "/recipes/rice-pudding.png",
+      "ingredients": [
+        "Milk",
+        "Sugar",
+        "Rice"
+      ],
+      "howToLearn": {
+        "source": "friendship",
+        "detail": "Evelyn — 7-heart mail"
+      }
+    },
+    {
+      "id": "ice-cream",
+      "name": "Ice Cream",
+      "sprite": "/recipes/ice-cream.png",
+      "ingredients": [
+        "Milk",
+        "Sugar"
+      ],
+      "howToLearn": {
+        "source": "friendship",
+        "detail": "Jodi — 7-heart mail"
+      }
+    },
+    {
+      "id": "blueberry-tart",
+      "name": "Blueberry Tart",
+      "sprite": "/recipes/blueberry-tart.png",
+      "ingredients": [
+        "Blueberry",
+        "Wheat Flour",
+        "Sugar",
+        "Egg"
+      ],
+      "howToLearn": {
+        "source": "friendship",
+        "detail": "Pierre — 3-heart mail"
+      }
+    },
+    {
+      "id": "autumns-bounty",
+      "name": "Autumn's Bounty",
+      "sprite": "/recipes/autumns-bounty.png",
+      "ingredients": [
+        "Yam",
+        "Pumpkin"
+      ],
+      "howToLearn": {
+        "source": "friendship",
+        "detail": "Demetrius — 7-heart mail"
+      }
+    },
+    {
+      "id": "pumpkin-soup",
+      "name": "Pumpkin Soup",
+      "sprite": "/recipes/pumpkin-soup.png",
+      "ingredients": [
+        "Pumpkin",
+        "Milk"
+      ],
+      "howToLearn": {
+        "source": "friendship",
+        "detail": "Robin — 7-heart mail"
+      }
+    },
+    {
+      "id": "super-meal",
+      "name": "Super Meal",
+      "sprite": "/recipes/super-meal.png",
+      "ingredients": [
+        "Bok Choy",
+        "Cranberries",
+        "Artichoke"
+      ],
+      "howToLearn": {
+        "source": "friendship",
+        "detail": "Kent — 7-heart mail"
+      }
+    },
+    {
+      "id": "cranberry-sauce",
+      "name": "Cranberry Sauce",
+      "sprite": "/recipes/cranberry-sauce.png",
+      "ingredients": [
+        "Cranberries",
+        "Sugar"
+      ],
+      "howToLearn": {
+        "source": "friendship",
+        "detail": "Gus — 7-heart mail"
+      }
+    },
+    {
+      "id": "stuffing",
+      "name": "Stuffing",
+      "sprite": "/recipes/stuffing.png",
+      "ingredients": [
+        "Bread",
+        "Cranberries",
+        "Hazelnut"
+      ],
+      "howToLearn": {
+        "source": "friendship",
+        "detail": "Pam — 7-heart mail"
+      }
+    },
+    {
+      "id": "farmers-lunch",
+      "name": "Farmer's Lunch",
+      "sprite": "/recipes/farmers-lunch.png",
+      "ingredients": [
+        "Omelet",
+        "Parsnip"
+      ],
+      "howToLearn": {
+        "source": "skill",
+        "detail": "Farming Level 3"
+      }
+    },
+    {
+      "id": "survival-burger",
+      "name": "Survival Burger",
+      "sprite": "/recipes/survival-burger.png",
+      "ingredients": [
+        "Bread",
+        "Cave Carrot",
+        "Eggplant"
+      ],
+      "howToLearn": {
+        "source": "skill",
+        "detail": "Foraging Level 8"
+      }
+    },
+    {
+      "id": "dish-o-the-sea",
+      "name": "Dish O' The Sea",
+      "sprite": "/recipes/dish-o-the-sea.png",
+      "ingredients": [
+        "Sardine",
+        "Hashbrowns"
+      ],
+      "howToLearn": {
+        "source": "skill",
+        "detail": "Fishing Level 3"
+      }
+    },
+    {
+      "id": "miners-treat",
+      "name": "Miner's Treat",
+      "sprite": "/recipes/miners-treat.png",
+      "ingredients": [
+        "Cave Carrot",
+        "Sugar",
+        "Milk"
+      ],
+      "howToLearn": {
+        "source": "skill",
+        "detail": "Mining Level 3"
+      }
+    },
+    {
+      "id": "roots-platter",
+      "name": "Roots Platter",
+      "sprite": "/recipes/roots-platter.png",
+      "ingredients": [
+        "Cave Carrot",
+        "Winter Root"
+      ],
+      "howToLearn": {
+        "source": "skill",
+        "detail": "Combat Level 3"
+      }
+    },
+    {
+      "id": "triple-shot-espresso",
+      "name": "Triple Shot Espresso",
+      "sprite": "/recipes/triple-shot-espresso.png",
+      "ingredients": [
+        "Coffee"
+      ],
+      "howToLearn": {
+        "source": "shop",
+        "detail": "Stardrop Saloon (Gus) — 5,000g"
+      }
+    },
+    {
+      "id": "seafoam-pudding",
+      "name": "Seafoam Pudding",
+      "sprite": "/recipes/seafoam-pudding.png",
+      "ingredients": [
+        "Flounder",
+        "Midnight Carp",
+        "Squid Ink"
+      ],
+      "howToLearn": {
+        "source": "skill",
+        "detail": "Fishing Level 9"
+      }
+    },
+    {
+      "id": "algae-soup",
+      "name": "Algae Soup",
+      "sprite": "/recipes/algae-soup.png",
+      "ingredients": [
+        "Green Algae"
+      ],
+      "howToLearn": {
+        "source": "friendship",
+        "detail": "Clint — 3-heart mail"
+      }
+    },
+    {
+      "id": "pale-broth",
+      "name": "Pale Broth",
+      "sprite": "/recipes/pale-broth.png",
+      "ingredients": [
+        "White Algae"
+      ],
+      "howToLearn": {
+        "source": "friendship",
+        "detail": "Marnie — 3-heart mail"
+      }
+    },
+    {
+      "id": "plum-pudding",
+      "name": "Plum Pudding",
+      "sprite": "/recipes/plum-pudding.png",
+      "ingredients": [
+        "Wild Plum",
+        "Wheat Flour",
+        "Sugar"
+      ],
+      "howToLearn": {
+        "source": "queen_of_sauce",
+        "detail": "The Queen of Sauce — Winter 7, Year 1"
+      }
+    },
+    {
+      "id": "artichoke-dip",
+      "name": "Artichoke Dip",
+      "sprite": "/recipes/artichoke-dip.png",
+      "ingredients": [
+        "Artichoke",
+        "Milk"
+      ],
+      "howToLearn": {
+        "source": "queen_of_sauce",
+        "detail": "The Queen of Sauce — Fall 28, Year 1"
+      }
+    },
+    {
+      "id": "stir-fry",
+      "name": "Stir Fry",
+      "sprite": "/recipes/stir-fry.png",
+      "ingredients": [
+        "Cave Carrot",
+        "Common Mushroom",
+        "Kale",
+        "Oil"
+      ],
+      "howToLearn": {
+        "source": "queen_of_sauce",
+        "detail": "The Queen of Sauce — Spring 7, Year 1"
+      }
+    },
+    {
+      "id": "roasted-hazelnuts",
+      "name": "Roasted Hazelnuts",
+      "sprite": "/recipes/roasted-hazelnuts.png",
+      "ingredients": [
+        "Hazelnut"
+      ],
+      "howToLearn": {
+        "source": "queen_of_sauce",
+        "detail": "The Queen of Sauce — Summer 28, Year 2"
+      }
+    },
+    {
+      "id": "pumpkin-pie",
+      "name": "Pumpkin Pie",
+      "sprite": "/recipes/pumpkin-pie.png",
+      "ingredients": [
+        "Pumpkin",
+        "Wheat Flour",
+        "Milk",
+        "Sugar"
+      ],
+      "howToLearn": {
+        "source": "queen_of_sauce",
+        "detail": "The Queen of Sauce — Winter 21, Year 1"
+      }
+    },
+    {
+      "id": "radish-salad",
+      "name": "Radish Salad",
+      "sprite": "/recipes/radish-salad.png",
+      "ingredients": [
+        "Oil",
+        "Vinegar",
+        "Radish"
+      ],
+      "howToLearn": {
+        "source": "queen_of_sauce",
+        "detail": "The Queen of Sauce — Spring 21, Year 1"
+      }
+    },
+    {
+      "id": "fruit-salad",
+      "name": "Fruit Salad",
+      "sprite": "/recipes/fruit-salad.png",
+      "ingredients": [
+        "Blueberry",
+        "Melon",
+        "Apricot"
+      ],
+      "howToLearn": {
+        "source": "queen_of_sauce",
+        "detail": "The Queen of Sauce — Fall 7, Year 2"
+      }
+    },
+    {
+      "id": "blackberry-cobbler",
+      "name": "Blackberry Cobbler",
+      "sprite": "/recipes/blackberry-cobbler.png",
+      "ingredients": [
+        "Blackberry",
+        "Sugar",
+        "Wheat Flour"
+      ],
+      "howToLearn": {
+        "source": "queen_of_sauce",
+        "detail": "The Queen of Sauce — Fall 14, Year 2"
+      }
+    },
+    {
+      "id": "cranberry-candy",
+      "name": "Cranberry Candy",
+      "sprite": "/recipes/cranberry-candy.png",
+      "ingredients": [
+        "Cranberries",
+        "Apple",
+        "Sugar"
+      ],
+      "howToLearn": {
+        "source": "queen_of_sauce",
+        "detail": "The Queen of Sauce — Winter 28, Year 1"
+      }
+    },
+    {
+      "id": "bruschetta",
+      "name": "Bruschetta",
+      "sprite": "/recipes/bruschetta.png",
+      "ingredients": [
+        "Bread",
+        "Oil",
+        "Tomato"
+      ],
+      "howToLearn": {
+        "source": "queen_of_sauce",
+        "detail": "The Queen of Sauce — Winter 21, Year 2"
+      }
+    },
+    {
+      "id": "coleslaw",
+      "name": "Coleslaw",
+      "sprite": "/recipes/coleslaw.png",
+      "ingredients": [
+        "Red Cabbage",
+        "Vinegar",
+        "Mayonnaise"
+      ],
+      "howToLearn": {
+        "source": "queen_of_sauce",
+        "detail": "The Queen of Sauce — Spring 14, Year 1"
+      }
+    },
+    {
+      "id": "fiddlehead-risotto",
+      "name": "Fiddlehead Risotto",
+      "sprite": "/recipes/fiddlehead-risotto.png",
+      "ingredients": [
+        "Oil",
+        "Fiddlehead Fern",
+        "Garlic"
+      ],
+      "howToLearn": {
+        "source": "queen_of_sauce",
+        "detail": "The Queen of Sauce — Fall 28, Year 2"
+      }
+    },
+    {
+      "id": "poppyseed-muffin",
+      "name": "Poppyseed Muffin",
+      "sprite": "/recipes/poppyseed-muffin.png",
+      "ingredients": [
+        "Poppy",
+        "Wheat Flour",
+        "Sugar"
+      ],
+      "howToLearn": {
+        "source": "queen_of_sauce",
+        "detail": "The Queen of Sauce — Winter 7, Year 2"
+      }
+    },
+    {
+      "id": "chowder",
+      "name": "Chowder",
+      "sprite": "/recipes/chowder.png",
+      "ingredients": [
+        "Clam",
+        "Milk"
+      ],
+      "howToLearn": {
+        "source": "friendship",
+        "detail": "Willy — 3-heart mail"
+      }
+    },
+    {
+      "id": "fish-stew",
+      "name": "Fish Stew",
+      "sprite": "/recipes/fish-stew.png",
+      "ingredients": [
+        "Crayfish",
+        "Mussel",
+        "Periwinkle",
+        "Tomato"
+      ],
+      "howToLearn": {
+        "source": "friendship",
+        "detail": "Willy — 7-heart mail"
+      }
+    },
+    {
+      "id": "escargot",
+      "name": "Escargot",
+      "sprite": "/recipes/escargot.png",
+      "ingredients": [
+        "Snail",
+        "Garlic"
+      ],
+      "howToLearn": {
+        "source": "friendship",
+        "detail": "Willy — 5-heart mail"
+      }
+    },
+    {
+      "id": "lobster-bisque",
+      "name": "Lobster Bisque",
+      "sprite": "/recipes/lobster-bisque.png",
+      "ingredients": [
+        "Lobster",
+        "Milk"
+      ],
+      "howToLearn": {
+        "source": "queen_of_sauce",
+        "detail": "The Queen of Sauce — Winter 14, Year 2; also Willy — 9-heart mail"
+      }
+    },
+    {
+      "id": "maple-bar",
+      "name": "Maple Bar",
+      "sprite": "/recipes/maple-bar.png",
+      "ingredients": [
+        "Maple Syrup",
+        "Sugar",
+        "Wheat Flour"
+      ],
+      "howToLearn": {
+        "source": "queen_of_sauce",
+        "detail": "The Queen of Sauce — Summer 14, Year 2"
+      }
+    },
+    {
+      "id": "crab-cakes",
+      "name": "Crab Cakes",
+      "sprite": "/recipes/crab-cakes.png",
+      "ingredients": [
+        "Crab",
+        "Wheat Flour",
+        "Egg",
+        "Oil"
+      ],
+      "howToLearn": {
+        "source": "queen_of_sauce",
+        "detail": "The Queen of Sauce — Fall 21, Year 2"
+      }
+    },
+    {
+      "id": "shrimp-cocktail",
+      "name": "Shrimp Cocktail",
+      "sprite": "/recipes/shrimp-cocktail.png",
+      "ingredients": [
+        "Tomato",
+        "Shrimp",
+        "Wild Horseradish"
+      ],
+      "howToLearn": {
+        "source": "queen_of_sauce",
+        "detail": "The Queen of Sauce — Winter 28, Year 2"
+      }
+    },
+    {
+      "id": "ginger-ale",
+      "name": "Ginger Ale",
+      "sprite": "/recipes/ginger-ale.png",
+      "ingredients": [
+        "Ginger",
+        "Sugar"
+      ],
+      "howToLearn": {
+        "source": "shop",
+        "detail": "Dwarf Shop, Volcano Dungeon — 1,000g"
+      }
+    },
+    {
+      "id": "banana-pudding",
+      "name": "Banana Pudding",
+      "sprite": "/recipes/banana-pudding.png",
+      "ingredients": [
+        "Banana",
+        "Milk",
+        "Sugar"
+      ],
+      "howToLearn": {
+        "source": "shop",
+        "detail": "Island Trader — 30 Bone Fragments"
+      }
+    },
+    {
+      "id": "mango-sticky-rice",
+      "name": "Mango Sticky Rice",
+      "sprite": "/recipes/mango-sticky-rice.png",
+      "ingredients": [
+        "Mango",
+        "Coconut",
+        "Rice"
+      ],
+      "howToLearn": {
+        "source": "friendship",
+        "detail": "Leo — 7-heart mail"
+      }
+    },
+    {
+      "id": "poi",
+      "name": "Poi",
+      "sprite": "/recipes/poi.png",
+      "ingredients": [
+        "Taro Root"
+      ],
+      "howToLearn": {
+        "source": "friendship",
+        "detail": "Leo — 3-heart mail"
+      }
+    },
+    {
+      "id": "tropical-curry",
+      "name": "Tropical Curry",
+      "sprite": "/recipes/tropical-curry.png",
+      "ingredients": [
+        "Coconut",
+        "Pineapple",
+        "Hot Pepper"
+      ],
+      "howToLearn": {
+        "source": "shop",
+        "detail": "Ginger Island Resort — 2,000g"
+      }
+    },
+    {
+      "id": "squid-ink-ravioli",
+      "name": "Squid Ink Ravioli",
+      "sprite": "/recipes/squid-ink-ravioli.png",
+      "ingredients": [
+        "Squid Ink",
+        "Wheat Flour",
+        "Tomato"
+      ],
+      "howToLearn": {
+        "source": "skill",
+        "detail": "Combat Level 9"
+      }
+    },
+    {
+      "id": "moss-soup",
+      "name": "Moss Soup",
+      "sprite": "/recipes/moss-soup.png",
+      "ingredients": [
+        "Moss"
+      ],
+      "howToLearn": {
+        "source": "skill",
+        "detail": "Foraging Level 3"
+      }
+    }
+  ]
+}

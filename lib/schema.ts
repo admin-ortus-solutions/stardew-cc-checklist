@@ -83,6 +83,55 @@ export const VillagersDatasetSchema = z.object({
   villagers: z.array(VillagerSchema).min(1),
 });
 
+export const RECIPE_SOURCES = [
+  "start",
+  "skill",
+  "shop",
+  "friendship",
+  "queen_of_sauce",
+  "special",
+] as const;
+
+export const HowToLearnSchema = z.object({
+  source: z.enum(RECIPE_SOURCES),
+  detail: z.string().min(1),
+});
+
+export const CookingRecipeSchema = z.object({
+  id: slug,
+  name: z.string().min(1),
+  sprite: z.string().startsWith("/recipes/"),
+  ingredients: z.array(z.string().min(1)),
+  howToLearn: HowToLearnSchema,
+});
+
+export const CraftingRecipeSchema = z.object({
+  id: slug,
+  name: z.string().min(1),
+  sprite: z.string().startsWith("/recipes/"),
+  category: z.string().min(1),
+  howToLearn: HowToLearnSchema,
+});
+
+const uniqueIds = (recipes: { id: string }[]) =>
+  new Set(recipes.map((r) => r.id)).size === recipes.length;
+
+export const CookingDatasetSchema = z.object({
+  version: z.number().int().positive(),
+  game: z.string().min(1),
+  recipes: z.array(CookingRecipeSchema).min(1).refine(uniqueIds, {
+    message: "recipe ids must be unique",
+  }),
+});
+
+export const CraftingDatasetSchema = z.object({
+  version: z.number().int().positive(),
+  game: z.string().min(1),
+  recipes: z.array(CraftingRecipeSchema).min(1).refine(uniqueIds, {
+    message: "recipe ids must be unique",
+  }),
+});
+
 export type BundleItem = z.infer<typeof BundleItemSchema>;
 export type GiftItem = z.infer<typeof GiftItemSchema>;
 export type Villager = z.infer<typeof VillagerSchema>;
@@ -93,3 +142,9 @@ export type Dataset = z.infer<typeof DatasetSchema>;
 export type Quality = (typeof QUALITIES)[number];
 export type Season = (typeof SEASONS)[number];
 export type Source = (typeof SOURCES)[number];
+export type RecipeSource = (typeof RECIPE_SOURCES)[number];
+export type HowToLearn = z.infer<typeof HowToLearnSchema>;
+export type CookingRecipe = z.infer<typeof CookingRecipeSchema>;
+export type CraftingRecipe = z.infer<typeof CraftingRecipeSchema>;
+export type CookingDataset = z.infer<typeof CookingDatasetSchema>;
+export type CraftingDataset = z.infer<typeof CraftingDatasetSchema>;
